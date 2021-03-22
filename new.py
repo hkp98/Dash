@@ -5,6 +5,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 from dash.dependencies import State, Input, Output
 from dash.exceptions import PreventUpdate
+import data_fetcher as fetch 
 
 import pandas as pd
 import os
@@ -26,61 +27,65 @@ app.config["suppress_callback_exceptions"] = True
 mapbox_access_token = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNrOWJqb2F4djBnMjEzbG50amg0dnJieG4ifQ.Zme1-Uzoi75IaFbieBDl3A"
 
 state_map = {
-    "AK": "Alaska",
-    "AL": "Alabama",
-    "AR": "Arkansas",
-    "AZ": "Arizona",
-    "CA": "California",
-    "CO": "Colorado",
-    "CT": "Connecticut",
-    "DC": "District of Columbia",
-    "DE": "Delaware",
-    "FL": "Florida",
-    "GA": "Georgia",
-    "HI": "Hawaii",
-    "IA": "Iowa",
-    "ID": "Idaho",
-    "IL": "Illinois",
-    "IN": "Indiana",
-    "KS": "Kansas",
-    "KY": "Kentucky",
-    "LA": "Louisiana",
-    "MA": "Massachusetts",
-    "MD": "Maryland",
-    "ME": "Maine",
-    "MI": "Michigan",
-    "MN": "Minnesota",
-    "MO": "Missouri",
-    "MS": "Mississippi",
-    "MT": "Montana",
-    "NC": "North Carolina",
-    "ND": "North Dakota",
-    "NE": "Nebraska",
-    "NH": "New Hampshire",
-    "NJ": "New Jersey",
-    "NM": "New Mexico",
-    "NV": "Nevada",
-    "NY": "New York",
-    "OH": "Ohio",
-    "OK": "Oklahoma",
-    "OR": "Oregon",
-    "PA": "Pennsylvania",
-    "RI": "Rhode Island",
-    "SC": "South Carolina",
-    "SD": "South Dakota",
-    "TN": "Tennessee",
-    "TX": "Texas",
-    "UT": "Utah",
-    "VA": "Virginia",
-    "VT": "Vermont",
-    "WA": "Washington",
-    "WI": "Wisconsin",
-    "WV": "West Virginia",
-    "WY": "Wyoming",
+    "AK": "ak",
+    "AL": "al",
+    "AR": "ar",
+    "AZ": "az",
+    "CA": "ca",
+    "CO": "co",
+    "CT": "ct",
+    "DC": "dc",
+    "DE": "de",
+    "FL": "fl",
+    "GA": "ga",
+    "HI": "hi",
+    "IA": "ia",
+    "ID": "id",
+    "IL": "il",
+    "IN": "in",
+    "KS": "ks",
+    "KY": "ky",
+    "LA": "la",
+    "MA": "ma",
+    "MD": "md",
+    "ME": "me",
+    "MI": "mi",
+    "MN": "mn",
+    "MO": "mo",
+    "MS": "ms",
+    "MT": "mt",
+    "NC": "nc",
+    "ND": "nd",
+    "NE": "ne",
+    "NH": "nh",
+    "NJ": "nj",
+    "NM": "nm",
+    "NV": "nv",
+    "NY": "ny",
+    "OH": "oh",
+    "OK": "ok",
+    "OR": "or",
+    "PA": "pa",
+    "RI": "ri",
+    "SC": "sc",
+    "SD": "sd",
+    "TN": "tn",
+    "TX": "tx",
+    "UT": "ut",
+    "VA": "va",
+    "VT": "vt",
+    "WA": "wa",
+    "WI": "wi",
+    "WV": "wv",
+    "WY": "wy",
 }
 
+state_list = list(state_map.values())
 
-state_list = list(state_map.keys())
+data_dict = {}
+for state in state_list:
+    state_data = fetch.query_state(state)
+    data_dict[state] = state_data
 
 car_fuel=["Gas","Diesel","Electric","Hybrid"]
 
@@ -141,6 +146,40 @@ def build_upper_left_panel():
                     ),
                 ],
             ),
+             html.Div([
+                html.Label("Drag the Slider to Change the Year"),
+                dcc.RangeSlider(
+                id='year-slider',
+                min=2000,
+                max=2020,
+                step=1.0,
+                value=[2010, 2015],
+                marks={
+                        2000: {'label': '2000'},
+                        2001: {'label': '2001'},
+                        2002: {'label': '2002'},
+                        2003: {'label': '2003'},
+                        2004: {'label': '2004'},
+                        2005: {'label': '2005'},
+                        2006: {'label': '2006'},
+                        2007: {'label': '2007'},
+                        2008: {'label': '2008'},
+                        2009: {'label': '2009'},
+                        2010: {'label': '2010'},
+                        2011: {'label': '2011'},
+                        2012: {'label': '2012'},
+                        2013: {'label': '2013'},
+                        2014: {'label': '2014'},
+                        2015: {'label': '2015'},
+                        2016: {'label': '2016'},
+                        2017: {'label': '2017'},
+                        2018: {'label': '2018'},
+                        2019: {'label': '2019'},
+                        2020: {'label': '2020'}}
+    
+                ),
+                html.Div(id='output-container-year-slider')
+            ]),
             html.Div(
                 id="table-container",
                 className="table-container",
@@ -165,7 +204,8 @@ app.layout = html.Div(
             id="banner",
             className="banner",
             children=[
-                html.H1("Used Cars Dashboard"),
+                html.H1("Used Cars Dashboard", style={'text-align': 'center'}),
+                html.Img(src=app.get_asset_url("Used_Cars_Logo.png")),
                 
             ],
         ),
@@ -180,7 +220,7 @@ app.layout = html.Div(
                     children=[
                         html.P(
                             id="map-title",
-                            children="Medicare Provider Charges in the State of {}".format(
+                            children="Car listings in the State of {}".format(
                                 state_map[state_list[0]]
                             ),
                         ),
