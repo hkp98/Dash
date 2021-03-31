@@ -1,246 +1,374 @@
 import dash
+import dash_table
 import dash_core_components as dcc
-import dash_html_components as html 
-import mysql.connector
+import dash_html_components as html
+import plotly.graph_objs as go
+from dash.dependencies import State, Input, Output
+from dash.exceptions import PreventUpdate 
+
 import pandas as pd
-import plotly.express as plt 
-import data_fetcher as fetch 
+import os
 
-# app = dash.Dash()
+app = dash.Dash(
+    __name__,
+    meta_tags=[
+        {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+        }
+    ],
+)
+server = app.server
 
-# db = mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     passwd ="1234",
-#    # auth_plugin='mysql_native_password',
-#     database ="usedcars"
-# )
+app.config["suppress_callback_exceptions"] = True
 
-# my_cursor = db.cursor()
-# myresult = my_cursor.execute("select distinct latitude,longitude,car_year,manufacturer from used_cars_dashboard where car_year>2000")
-# myresult = my_cursor.fetchall()
-
-# headings = [i[0] for i in my_cursor.description]
-
-# df = pd.DataFrame(myresult)
-# df.sort_values(by= 2, ascending=False, inplace=True)
-
-# fig = plt.scatter_mapbox(df, lat=0, lon=1, hover_name=2, hover_data=[3],
-#                          zoom=4, height=600,animation_frame=2 ,color=3)
-# fig.update_layout(mapbox_style="carto-darkmatter")
-# fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
-
-
-# YEARS = [2000,2001,2002,2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015,2016,2017,2018,2019,2020]
-
-# mapbox_access_token = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNrOWJqb2F4djBnMjEzbG50amg0dnJieG4ifQ.Zme1-Uzoi75IaFbieBDl3A"
-# mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
-
-# app.layout = html.Div(
-#     id="root",
-#     children=[
-#         html.Div(
-#             id="header",
-#             children=[
-#                 html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
-#                 html.H4(children="Rate of US Poison-Induced Deaths"),
-#                 html.P(
-#                     id="description",
-#                     children="† Deaths are classified using the International Classification of Diseases, \
-#                     Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
-#                     cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
-#                     (undetermined intent).",
-#                 ),
-#             ],
-#         ),
-#         html.Div(
-#             id="app-container",
-#             children=[
-#                 html.Div(
-#                     id="left-column",
-#                     children=[
-#                         html.Div(
-#                             id="slider-container",
-#                             children=[
-#                                 html.P(
-#                                     id="slider-text",
-#                                     children="Drag the slider to change the year:",
-#                                 ),
-#                                 dcc.Slider(
-#                                     id="years-slider",
-#                                     min=min(YEARS),
-#                                     max=max(YEARS),
-#                                     value=min(YEARS),
-#                                     marks={
-#                                         str(year): {
-#                                             "label": str(year),
-#                                             "style": {"color": "#7fafdf"},
-#                                         }
-#                                         for year in YEARS
-#                                     },
-#                                 ),
-#                             ],
-#                         ),
-#                         html.Div(
-#                             id="heatmap-container",
-#                             children=[
-#                                 html.P(
-#                                     "Heatmap of age adjusted mortality rates \
-#                             from poisonings in year {0}".format(
-#                                         min(YEARS)
-#                                     ),
-#                                     id="heatmap-title",
-#                                 ),
-#                                 dcc.Graph(
-#                                     id="county-choropleth",
-#                                     figure=dict(
-#                                         layout=dict(
-#                                             mapbox=dict(
-#                                                 layers=[],
-#                                                 accesstoken=mapbox_access_token,
-#                                                 style=mapbox_style,
-#                                                 center=dict(
-#                                                     lat=38.72490, lon=-95.61446
-#                                                 ),
-#                                                 pitch=0,
-#                                                 zoom=3.5,
-#                                             ),
-#                                             autosize=True,
-#                                         ),
-#                                     ),
-#                                 ),
-#                             ],
-#                         ),
-#                     ],
-#                 ),
-#                 html.Div(
-#                     id="graph-container",
-#                     children=[
-#                         html.P(id="chart-selector", children="Select chart:"),
-#                         dcc.Dropdown(
-#                             options=[
-#                                 {
-#                                     "label": "Histogram of total number of deaths (single year)",
-#                                     "value": "show_absolute_deaths_single_year",
-#                                 },
-#                                 {
-#                                     "label": "Histogram of total number of deaths (1999-2016)",
-#                                     "value": "absolute_deaths_all_time",
-#                                 },
-#                                 {
-#                                     "label": "Age-adjusted death rate (single year)",
-#                                     "value": "show_death_rate_single_year",
-#                                 },
-#                                 {
-#                                     "label": "Trends in age-adjusted death rate (1999-2016)",
-#                                     "value": "death_rate_all_time",
-#                                 },
-#                             ],
-#                             value="show_death_rate_single_year",
-#                             id="chart-dropdown",
-#                         ),
-#                         dcc.Graph(
-#                             id="selected-data",
-#                             figure=dict(
-#                                 data=[dict(x=0, y=0)],
-#                                 layout=dict(
-#                                     paper_bgcolor="#F4F4F8",
-#                                     plot_bgcolor="#F4F4F8",
-#                                     autofill=True,
-#                                     margin=dict(t=75, r=50, b=100, l=50),
-#                                 ),
-#                             ),
-#                         ),
-#                     ],
-#                 ),
-#             ],
-#         ),
-#     ],
-# )
-
-
-
-
-# # def first_map():
-# #     dff = df.copy()
-# #     fig =  plt.scatter_mapbox( 
-# #         dff,
-# #         lat = 0, 
-# #         lon = 1,
-# #         hover_name = 2, 
-# #         hover_data=[3],
-# #         zoom=4,
-# #         height=600,
-# #         color_discrete_sequence=["fuchsia"],
-# #         mapbox_style="open-street-map"
-# #     )
-
-
-# if __name__ == '__main__':
-#     app.run_server()
-
-# data = fetch.state('wy')
-# print(data)
+# Plotly mapbox token
+mapbox_access_token = "pk.eyJ1IjoiaGFyc2hwYXRlbDk4IiwiYSI6ImNrbXI0cXB0ejA0YnEydnJ5N2x2eWZkMjYifQ.X7UzQvxMuyQmdFE0SNgH5w"
 
 state_map = {
-    "AK": "ak",
-    "AL": "al",
-    "AR": "ar",
-    "AZ": "az",
-    "CA": "ca",
-    "CO": "co",
-    "CT": "ct",
-    "DC": "dc",
-    "DE": "de",
-    "FL": "fl",
-    "GA": "ga",
-    "HI": "hi",
-    "IA": "ia",
-    "ID": "id",
-    "IL": "il",
-    "IN": "in",
-    "KS": "ks",
-    "KY": "ky",
-    "LA": "la",
-    "MA": "ma",
-    "MD": "md",
-    "ME": "me",
-    "MI": "mi",
-    "MN": "mn",
-    "MO": "mo",
-    "MS": "ms",
-    "MT": "mt",
-    "NC": "nc",
-    "ND": "nd",
-    "NE": "ne",
-    "NH": "nh",
-    "NJ": "nj",
-    "NM": "nm",
-    "NV": "nv",
-    "NY": "ny",
-    "OH": "oh",
-    "OK": "ok",
-    "OR": "or",
-    "PA": "pa",
-    "RI": "ri",
-    "SC": "sc",
-    "SD": "sd",
-    "TN": "tn",
-    "TX": "tx",
-    "UT": "ut",
-    "VA": "va",
-    "VT": "vt",
-    "WA": "wa",
-    "WI": "wi",
-    "WV": "wv",
-    "WY": "wy",
+    "AK": "Alaska",
+    "AL": "Alabama",
+    "AR": "Arkansas",
+    "AZ": "Arizona",
+    "CA": "California",
+    "CO": "Colorado",
+    "CT": "Connecticut",
+    "DC": "District of Columbia",
+    "DE": "Delaware",
+    "FL": "Florida",
+    "GA": "Georgia",
+    "HI": "Hawaii",
+    "IA": "Iowa",
+    "ID": "Idaho",
+    "IL": "Illinois",
+    "IN": "Indiana",
+    "KS": "Kansas",
+    "KY": "Kentucky",
+    "LA": "Louisiana",
+    "MA": "Massachusetts",
+    "MD": "Maryland",
+    "ME": "Maine",
+    "MI": "Michigan",
+    "MN": "Minnesota",
+    "MO": "Missouri",
+    "MS": "Mississippi",
+    "MT": "Montana",
+    "NC": "North Carolina",
+    "ND": "North Dakota",
+    "NE": "Nebraska",
+    "NH": "New Hampshire",
+    "NJ": "New Jersey",
+    "NM": "New Mexico",
+    "NV": "Nevada",
+    "NY": "New York",
+    "OH": "Ohio",
+    "OK": "Oklahoma",
+    "OR": "Oregon",
+    "PA": "Pennsylvania",
+    "RI": "Rhode Island",
+    "SC": "South Carolina",
+    "SD": "South Dakota",
+    "TN": "Tennessee",
+    "TX": "Texas",
+    "UT": "Utah",
+    "VA": "Virginia",
+    "VT": "Vermont",
+    "WA": "Washington",
+    "WI": "Wisconsin",
+    "WV": "West Virginia",
+    "WY": "Wyoming",
 }
 
-state_list = list(state_map.values())
+state_list = list(state_map.keys())
 
 data_dict = {}
+it = 0
 for state in state_list:
-    state_data = fetch.query_state(state)
+    p = os.getcwd().split(os.path.sep)
+    csv_path = "Data//{}.csv".format(state)
+    state_data = pd.read_csv(csv_path)
     data_dict[state] = state_data
+    
+init_region = data_dict[state_list[0]][
+    "state_region"
+].unique()
 
-print(data_dict)
+car_year=[2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000]
+
+def build_upper_left_panel():
+    return html.Div(
+        id="upper-left",
+        className="six columns",
+        children=[
+            html.P(
+                className="section-title",
+                children="Choose car listings on the map",
+            ),
+            html.Div(
+                className="control-row-1",
+                children=[
+                    html.Div(
+                        id="state-select-outer",
+                        children=[
+                            html.Label("Select a State"),
+                            dcc.Dropdown(
+                                id="state-select",
+                                options=[{"label": i, "value": i} for i in state_list],
+                                value=state_list[31],
+                            ),
+                        ],
+                    ),
+                    html.Div(
+                        id="select-metric-outer",
+                        children=[
+                            html.Label("Choose the year of Vehicle"),
+                            dcc.Dropdown(
+                                id="car-year-select",
+                                options=[{"label": i, "value": i} for i in car_year],
+                                value=car_year[0],
+                            ),
+                        ],
+                    ),
+                ],
+            ),
+            html.Div(
+                id="region-select-outer",
+                className="control-row-2",
+                children=[
+                    html.Label("Pick a Region"),
+                    html.Div(
+                        id="checklist-container",
+                        children=dcc.Checklist(
+                            id="region-select-all",
+                            options=[{"label": "Select All Regions", "value": "All"}],
+                            value=[],
+                        ),
+                    ),
+                    html.Div(
+                        id="region-select-dropdown-outer",
+                        children=dcc.Dropdown(
+                            id="region-select", multi=True, searchable=True,
+                        ),
+                    ),
+                ],
+            ),
+             html.Div([
+                html.Label("Drag the Slider to Change the Price"),
+                dcc.RangeSlider(
+                id='price-select',
+                min=0,
+                max=50000,        
+                value=[5000, 20000],
+                marks={
+                        0: {'label': '0'},
+                        5000: {'label': '5000'},
+                        10000: {'label': '10000'},
+                        20000: {'label': '20000'},                        
+                        50000: {'label': '50000'}}
+                ),
+                html.Div(id='output-container-price-slider')
+            ]),
+        ],
+    )
+
+def generate_geo_map(geo_data,region_select,car_year_select,price_select):
+    car_year_select = [car_year_select]
+    
+    filtered_data = geo_data[
+        geo_data["state_region"].isin(
+            region_select)
+    ]
+    filtered_data = filtered_data[filtered_data["car_year"].isin(car_year_select)]
+    filtered_data=filtered_data[filtered_data["price"]>= price_select[0]]
+    filtered_data=filtered_data[filtered_data["price"]<= price_select[1]]
+
+    print(filtered_data)
+
+    colors = ["#21c7ef", "#76f2ff", "#ff6969", "#ff1717"]
+
+    hospitals = []
+    # print(filtered_data)
+    lat = filtered_data["latitude"].tolist()
+    lon = filtered_data["longitude"].tolist()
+    regions = filtered_data["state_region"].tolist()
+    years = filtered_data["car_year"].tolist()
+    models = filtered_data["model"].tolist()
+    manufacturers = filtered_data["manufacturer"].tolist()
+    prices= filtered_data["price"].tolist()
+    x = 0
+    if len(lat) > 1000:
+        x = 1000
+    else:
+        x = len(lat) 
+    for i in range(x):
+        region = regions[i]
+        year = years[i]
+        model = models[i]
+        manufacturer = manufacturers[i]
+        price = prices[i]
+        
+        hospital = go.Scattermapbox(
+            lat=[lat[i]],
+            lon=[lon[i]],
+            mode="markers",
+            customdata=[(year,region)],
+            hoverinfo="text",
+            text =
+             "<br>Manufacturer: "
+            + manufacturer
+            + "<br>Model: "
+            + model
+            + "<br>Region: "
+            + region
+            + "<br>Price: "
+            + str(price),
+        )
+        hospitals.append(hospital)
+
+    layout = go.Layout(
+        margin=dict(l=10, r=10, t=20, b=10, pad=5),
+        plot_bgcolor="#171b26",
+        paper_bgcolor="#171b26",
+        clickmode="event+select",
+        hovermode="closest",
+        showlegend=False,
+        mapbox=go.layout.Mapbox(
+            accesstoken=mapbox_access_token,
+            bearing=10,
+            center=go.layout.mapbox.Center(
+                lat=filtered_data.latitude.mean(), lon=filtered_data.longitude.mean()
+            ),
+            pitch=5,
+            zoom=5,
+            style="mapbox://styles/plotlymapbox/cjvppq1jl1ips1co3j12b9hex",
+        ),
+    )
+
+    return {"data": hospitals, "layout": layout}
+
+app.layout = html.Div(
+    className="container scalable",
+    children=[
+        html.Div(
+            id="banner",
+            className="banner",
+            children=[
+                html.H1("Used Cars Dashboard", style={'text-align': 'center'}),
+                html.Img(src=app.get_asset_url("Used_Cars_Logo.png")),
+                
+            ],
+        ),
+        html.Div(
+            id="upper-container",
+            className="row",
+            children=[
+                build_upper_left_panel(),
+                html.Div(
+                    id="geo-map-outer",
+                    className="six columns",
+                    children=[
+                        html.P(
+                            id="map-title",
+                            children="Car listings in the State of {}".format(
+                                state_map[state_list[0]]
+                            ),
+                        ),
+                        html.Div(
+                            id="geo-map-loading-outer",
+                            children=[
+                                dcc.Loading(
+                                    id="loading",
+                                    children=dcc.Graph(
+                                        id="geo-map",
+                                        figure={
+                                            "data": [],
+                                            "layout": dict(
+                                                plot_bgcolor="#171b26",
+                                                paper_bgcolor="#171b26",
+                                            ),
+                                        },
+                                    ),
+                                )
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        
+    ],
+)
+
+@app.callback(
+    [
+        Output("region-select", "value"),
+        Output("region-select", "options"),
+        Output("map-title", "children"),
+    ],
+    [Input("region-select-all", "value"), Input("state-select", "value"), ],
+)
+def update_region_dropdown(select_all, state_select):
+    state_raw_data = data_dict[state_select]
+    regions = state_raw_data["state_region"].unique(
+    )
+    options = [{"label": i, "value": i} for i in regions]
+
+    ctx = dash.callback_context
+    if ctx.triggered[0]["prop_id"].split(".")[0] == "region-select-all":
+        if select_all == ["All"]:
+            value = [i["value"] for i in options]
+        else:
+            value = dash.no_update
+    else:
+        value = regions[:4]
+    return (
+        value,
+        options,
+        "Used_cars listings in the State of {}".format(
+            state_map[state_select]),
+    )
+
+@app.callback(
+    Output("checklist-container", "children"),
+    [Input("region-select", "value")],
+    [State("region-select", "options"), State("region-select-all", "value")],
+)
+def update_checklist(selected, select_options, checked):
+    if len(selected) < len(select_options) and len(checked) == 0:
+        raise PreventUpdate()
+
+    elif len(selected) < len(select_options) and len(checked) == 1:
+        return dcc.Checklist(
+            id="region-select-all",
+            options=[{"label": "Select All Regions", "value": "All"}],
+            value=[],
+        )
+
+    elif len(selected) == len(select_options) and len(checked) == 1:
+        raise PreventUpdate()
+
+    return dcc.Checklist(
+        id="region-select-all",
+        options=[{"label": "Select All Regions", "value": "All"}],
+        value=["All"],
+    )
+
+@app.callback(
+    Output("geo-map", "figure"),
+    [
+        Input("state-select", "value"),
+        Input("region-select", "value"),
+        Input("car-year-select", "value"),
+        Input("price-select", "value"),
+        
+    ],
+)
+def update_geo_map(state_select,region_select,car_year_select,price_select):
+    # generate geo map from state-select, procedure-select
+    # print(region_select)
+    # print(car_year_select)
+    state_agg_data = data_dict[state_select]
+    return generate_geo_map(state_agg_data,region_select,car_year_select,price_select)
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
