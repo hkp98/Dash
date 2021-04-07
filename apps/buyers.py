@@ -5,6 +5,7 @@ from dash.dependencies import Output, Input
 from numpy.core.shape_base import stack
 import plotly.express as px
 import pandas as pd 
+from app import app
 
 df = pd.read_csv("page2.csv")
 df_1 = pd.read_csv("bar_plot.csv")
@@ -12,15 +13,30 @@ df = df.groupby(["car_year","state"]).mean()
 df = df.add_suffix('_Average').reset_index()
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+# app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-app.layout = html.Div([
-    dcc.Dropdown(id='dpdn2', value=['NJ','NY'], multi=True,
+layout =        html.Div(
+        className="container scalable",
+    children=[
+        html.Div(
+            id="banner",
+            className="banner",
+            children=[
+                html.H1("Used Cars Dashboard", style={'text-align': 'center'}),
+                html.Img(src=app.get_asset_url("Used_Cars_Logo.png")),
+                
+            ],
+        ),
+        html.Div(id='app-1-display-value'),
+                dcc.Link('Home', href='home'),
+        html.Div(id='app-2-display-value'),
+                dcc.Link('Dashboard', href='/apps/main'),
+            dcc.Dropdown(id='dpdn2', value=['NJ','NY'], multi=True,
                  options=[{'label': x, 'value': x} for x in
                           df.state.unique()]),
-    html.Div([
-        dcc.Graph(id='pie-graph', figure={}, className='six columns'),
-        dcc.Graph(id='my-graph', figure={}, clickData=None, hoverData=None, # I assigned None for tutorial purposes. By defualt, these are None, unless you specify otherwise.
+        html.Div([
+            dcc.Graph(id='pie-graph', figure={}, className='six columns'),
+            dcc.Graph(id='my-graph', figure={}, clickData=None, hoverData=None, # I assigned None for tutorial purposes. By defualt, these are None, unless you specify otherwise.
                   config={
                       'staticPlot': False,     # True, False
                       'scrollZoom': True,      # True, False
@@ -87,5 +103,5 @@ def update_graph_bottom(state_chosen):
     return fig3
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)

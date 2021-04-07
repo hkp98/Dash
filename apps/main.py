@@ -9,18 +9,20 @@ from dash.exceptions import PreventUpdate
 import pandas as pd
 import os
 
-app = dash.Dash(
-    __name__,
-    meta_tags=[
-        {
-            "name": "viewport",
-            "content": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
-        }
-    ],
-)
-server = app.server
+from app import app
 
-app.config["suppress_callback_exceptions"] = True
+# app = dash.Dash(
+#     __name__,
+#     meta_tags=[
+#         {
+#             "name": "viewport",
+#             "content": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+#         }
+#     ],
+# )
+# server = app.server
+
+# app.config["suppress_callback_exceptions"] = True
 
 # Plotly mapbox token
 mapbox_access_token = "pk.eyJ1IjoiaGFyc2hwYXRlbDk4IiwiYSI6ImNrbXI0cXB0ejA0YnEydnJ5N2x2eWZkMjYifQ.X7UzQvxMuyQmdFE0SNgH5w"
@@ -99,11 +101,12 @@ def build_upper_left_panel():
     return html.Div(
         id="upper-left",
         className="six columns",
-        children=[
+                children=[
             html.P(
                 className="section-title",
                 children="Choose car listings on the map",
             ),
+            
             html.Div(
                 className="control-row-1",
                 children=[
@@ -246,7 +249,7 @@ def generate_geo_map(geo_data,region_select,car_year_select,price_select):
 
     return {"data": hospitals, "layout": layout}
 
-app.layout = html.Div(
+layout = html.Div(
     className="container scalable",
     children=[
         html.Div(
@@ -258,6 +261,10 @@ app.layout = html.Div(
                 
             ],
         ),
+        html.Div(id='app-1-display-value'),
+                dcc.Link('Home', href='home'),
+        html.Div(id='app-2-display-value'),
+                dcc.Link('Buyers', href='/apps/buyers'),
         html.Div(
             id="upper-container",
             className="row",
@@ -370,5 +377,5 @@ def update_geo_map(state_select,region_select,car_year_select,price_select):
     state_agg_data = data_dict[state_select]
     return generate_geo_map(state_agg_data,region_select,car_year_select,price_select)
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+# if __name__ == "__main__":
+#     app.run_server(debug=True)
