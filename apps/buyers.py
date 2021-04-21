@@ -7,15 +7,19 @@ import plotly.express as px
 import pandas as pd 
 from app import app
 
-df = pd.read_csv("page2.csv")
-df_1 = pd.read_csv("bar_plot.csv")
+df = pd.read_csv("Dash-master//page2.csv")
+df_1 = pd.read_csv("Dash-master//bar_plot.csv")
+df_2 = pd.read_csv("Dash-master//condition_plots.csv")
+df_3 = pd.read_csv("Dash-master//drive_plots.csv")
+df_4 = pd.read_csv("Dash-master//fuel_plots.csv")
 df = df.groupby(["car_year","state"]).mean()
 df = df.add_suffix('_Average').reset_index()
+
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-layout =        html.Div(
+layout = html.Div(
         className="container scalable",
     children=[
         html.Div(
@@ -48,7 +52,10 @@ layout =        html.Div(
                         },
                   className='six columns'
                   ),
-        dcc.Graph(id='bar-graph',figure={},className='six columns')
+        dcc.Graph(id='bar-graph',figure={},className='six columns'),
+        dcc.Graph(id='bar-graph1',figure={},className='six columns'),
+        dcc.Graph(id='bar-graph2',figure={},className='six columns'),
+        dcc.Graph(id='bar-graph3',figure={},className='six columns')
     ])
 ])
 
@@ -73,16 +80,17 @@ def update_graph(state_chosen):
     Input(component_id='my-graph', component_property='selectedData'),
     Input(component_id='dpdn2', component_property='value')
 )
+
 def update_side_graph(hov_data, clk_data, slct_data, state_chosen):
     if hov_data is None:
         dff2 = df[df.state.isin(state_chosen)]
         dff2 = dff2[dff2.car_year == 2000]
-        print(dff2)
+        # print(dff2)
         fig2 = px.pie(data_frame=dff2, values='price_Average', names='state',
                       title='Average Odometer Comparison for 2000')
         return fig2
     else:
-        print(f'hover data: {hov_data}')
+        # print(f'hover data: {hov_data}')
         # print(hov_data['points'][0]['customdata'][0])
         # print(f'click data: {clk_data}')
         # print(f'selected data: {slct_data}')
@@ -100,6 +108,36 @@ def update_side_graph(hov_data, clk_data, slct_data, state_chosen):
 def update_graph_bottom(state_chosen):
     dff = df_1[df_1.state.isin(state_chosen)]
     fig3 = px.bar(data_frame=dff, x='manufacturer', y='count_manufacturer', color='state',barmode="stack",orientation='v')
+    return fig3
+
+@app.callback(
+    Output(component_id='bar-graph1', component_property='figure'),
+    Input(component_id='dpdn2', component_property='value'),
+    
+)
+def update_graph_bottom(state_chosen):
+    dff = df_2[df_2.state.isin(state_chosen)]
+    fig3 = px.bar(data_frame=dff, x='car_condition', y='count', color='state',barmode="stack",orientation='v')
+    return fig3
+
+@app.callback(
+    Output(component_id='bar-graph2', component_property='figure'),
+    Input(component_id='dpdn2', component_property='value'),
+    
+)
+def update_graph_bottom(state_chosen):
+    dff = df_3[df_3.state.isin(state_chosen)]
+    fig3 = px.bar(data_frame=dff, x='drive', y='count', color='state',barmode="stack",orientation='v')
+    return fig3
+
+@app.callback(
+    Output(component_id='bar-graph3', component_property='figure'),
+    Input(component_id='dpdn2', component_property='value'),
+    
+)
+def update_graph_bottom(state_chosen):
+    dff = df_4[df_4.state.isin(state_chosen)]
+    fig3 = px.bar(data_frame=dff, x='fuel', y='count', color='state',barmode="stack",orientation='v')
     return fig3
 
 

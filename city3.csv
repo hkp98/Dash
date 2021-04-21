@@ -1,0 +1,1093 @@
+fuel_type,state,city,count
+BD,AL,Gadsden,2
+BD,AL,Andalusia,1
+BD,AL,Dothan,1
+BD,AL,Enterprise,1
+BD,AL,Eufaula,1
+BD,AR,Batesville,1
+BD,AR,Little Rock AFB,1
+BD,AZ,Phoenix,67
+BD,AZ,Buckeye,1
+BD,AZ,Dateland,1
+BD,AZ,Glendale,1
+BD,AZ,Laveen Village,1
+BD,CA,San Diego,3
+BD,CA,Camp Pendleton,2
+BD,CA,Barstow,1
+BD,CA,Berkeley,1
+BD,CA,Corona,1
+BD,CO,Boulder,2
+BD,CO,Colorado Springs,1
+BD,CO,Commerce City,1
+BD,CO,Fort Collins,1
+BD,CO,Steamboat Springs,1
+BD,CT,Norwich,1
+BD,DC,Washington,7
+BD,FL,Tampa,2
+BD,FL,Eglin AFB,1
+BD,FL,Gainesville,1
+BD,FL,Jacksonville,1
+BD,FL,Orlando,1
+BD,GA,Albany,1
+BD,GA,Macon,1
+BD,GA,Marietta,1
+BD,HI,Honolulu,3
+BD,HI,Keaau,2
+BD,HI,Kahului,1
+BD,HI,Kaneohe Bay,1
+BD,IA,Washington,2
+BD,IA,Brighton,1
+BD,IA,Galva,1
+BD,IA,Lake Mills,1
+BD,IA,Lone Tree,1
+BD,IL,Scott AFB,2
+BD,IL,Altamont,1
+BD,IL,Batavia,1
+BD,IL,Cary,1
+BD,IL,Channahon,1
+BD,IN,Crane,1
+BD,IN,Goshen,1
+BD,IN,Grissom Joint Air Reserve Base,1
+BD,KS,Wichita,1
+BD,KY,Golden Pond,1
+BD,KY,Lexington,1
+BD,KY,Taylorsville,1
+BD,LA,Minden,1
+BD,MA,Newburyport,1
+BD,MA,North Adams,1
+BD,MA,North Andover,1
+BD,MA,Northampton,1
+BD,MA,Sandwich,1
+BD,MD,Baltimore,2
+BD,MD,Bethesda,1
+BD,MD,Greenbelt,1
+BD,MD,Suitland,1
+BD,ME,Portland,1
+BD,MI,Ann Arbor,2
+BD,MI,Cassopolis,1
+BD,MI,Dimondale,1
+BD,MI,Fairgrove,1
+BD,MI,Imlay City,1
+BD,MN,Moorhead,4
+BD,MN,St. James,3
+BD,MN,Worthington,3
+BD,MN,Detroit Lakes,2
+BD,MN,Dilworth,2
+BD,MO,Foristell,1
+BD,MO,Jefferson City,1
+BD,MS,Columbus AFB,1
+BD,NC,Charlotte,2
+BD,NC,Columbus,2
+BD,NC,Raleigh,2
+BD,NC,Williamston,2
+BD,NC,Ahoskie,1
+BD,ND,Fargo,1
+BD,NE,Grand Island,1
+BD,NE,Hartington,1
+BD,NE,York,1
+BD,NH,Durham,1
+BD,NH,Keene,1
+BD,NJ,Layton,1
+BD,NJ,Maplewood,1
+BD,NJ,Princeton,1
+BD,NM,Tres Piedras,1
+BD,NV,Las Vegas,1
+BD,NY,Rochester,2
+BD,NY,Troy,2
+BD,NY,Upton,2
+BD,NY,Bellmore,1
+BD,NY,Brentwood,1
+BD,OH,Cincinnati,3
+BD,OH,Cleveland,1
+BD,OH,Cleves,1
+BD,OH,Mansfield,1
+BD,OH,Perrysburg,1
+BD,OK,Norman,1
+BD,OR,Portland,10
+BD,OR,Albany,2
+BD,OR,Aurora,2
+BD,OR,Beaverton,2
+BD,OR,Eugene,2
+BD,PA,Pittsburgh,2
+BD,PA,Dingman's Ferry,1
+BD,PA,Horsham,1
+BD,RI,Cumberland,1
+BD,RI,Middletown,1
+BD,RI,Providence,1
+BD,SC,Columbia,2
+BD,SC,Moncks Corner,2
+BD,SC,Aiken,1
+BD,SC,Anderson,1
+BD,SC,Beaufort,1
+BD,TN,Nashville,2
+BD,TN,Clarksville,1
+BD,TN,Crossville,1
+BD,TN,Gatlinburg,1
+BD,TN,Goodlettsville,1
+BD,TX,Southlake,2
+BD,TX,Arlington,1
+BD,TX,Austin,1
+BD,TX,Beaumont,1
+BD,TX,Burnet,1
+BD,UT,Midvale,1
+BD,VA,Front Royal,1
+BD,VA,Quantico,1
+BD,VA,Richmond,1
+BD,VT,Morristown,1
+BD,VT,Plainfield,1
+BD,WA,Seattle,21
+BD,WA,Snohomish,2
+BD,WA,Bremerton,1
+BD,WA,Everett,1
+BD,WA,Fairchild AFB,1
+BD,WI,Beaver Dam,1
+BD,WI,Hustisford,1
+BD,WI,Pickett,1
+BD,WI,Poynette,1
+CNG,AK,Anchorage,1
+CNG,AL,Birmingham,5
+CNG,AL,Anniston,2
+CNG,AL,Gordo,2
+CNG,AL,Hanceville,2
+CNG,AL,Montgomery,2
+CNG,AR,Fort Smith,4
+CNG,AR,Conway,2
+CNG,AR,Springdale,2
+CNG,AR,Damascus,1
+CNG,AR,Forrest City,1
+CNG,AZ,Phoenix,13
+CNG,AZ,Tucson,5
+CNG,AZ,Mesa,3
+CNG,AZ,Goodyear,2
+CNG,AZ,Tempe,2
+CNG,CA,Los Angeles,27
+CNG,CA,Sacramento,7
+CNG,CA,San Diego,7
+CNG,CA,Riverside,6
+CNG,CA,Anaheim,5
+CNG,CO,Denver,7
+CNG,CO,Fort Collins,3
+CNG,CO,Colorado Springs,2
+CNG,CO,Grand Junction,2
+CNG,CO,Greeley,2
+CNG,CT,Norwich,3
+CNG,CT,East Windsor,2
+CNG,CT,Hartford,2
+CNG,CT,New Haven,2
+CNG,CT,Bloomfield,1
+CNG,DC,Washington,2
+CNG,DE,Dover,1
+CNG,DE,Wilmington,1
+CNG,FL,Orlando,6
+CNG,FL,Tampa,5
+CNG,FL,Jacksonville,4
+CNG,FL,Ocala,3
+CNG,FL,Pensacola,3
+CNG,GA,Atlanta,13
+CNG,GA,Columbus,2
+CNG,GA,Covington,2
+CNG,GA,Smyrna,2
+CNG,GA,Albany,1
+CNG,IA,Des Moines,2
+CNG,IA,Dubuque,2
+CNG,IA,West Burlington,2
+CNG,IA,Cedar Falls,1
+CNG,IA,Council Bluffs,1
+CNG,ID,Boise,4
+CNG,ID,Nampa,3
+CNG,ID,Coeur d'Alene,1
+CNG,ID,Idaho Falls,1
+CNG,ID,Jerome,1
+CNG,IL,Chicago,4
+CNG,IL,Cicero,2
+CNG,IL,Des Plaines,2
+CNG,IL,Homewood,2
+CNG,IL,West Peoria,2
+CNG,IN,Indianapolis,8
+CNG,IN,Gary,3
+CNG,IN,Lafayette,3
+CNG,IN,South Bend,3
+CNG,IN,Evansville,2
+CNG,KS,Kansas City,6
+CNG,KS,El Dorado,2
+CNG,KS,Olathe,2
+CNG,KS,Topeka,2
+CNG,KS,Edgerton,1
+CNG,KY,Louisville,4
+CNG,KY,Lexington,2
+CNG,KY,Carrollton,1
+CNG,KY,Georgetown,1
+CNG,KY,Somerset,1
+CNG,LA,Shreveport,4
+CNG,LA,Lafayette,3
+CNG,LA,Bossier City,2
+CNG,LA,Alexandria,1
+CNG,LA,Baton Rouge,1
+CNG,MA,Boston,3
+CNG,MA,East Boston,1
+CNG,MA,Everett,1
+CNG,MA,Framingham,1
+CNG,MA,Lexington,1
+CNG,MD,Baltimore,3
+CNG,MD,Curtis Bay,2
+CNG,MD,Derwood,2
+CNG,MD,Aberdeen,1
+CNG,MD,Forestville,1
+CNG,ME,Bangor,1
+CNG,ME,Portland,1
+CNG,MI,Detroit,3
+CNG,MI,Port Huron,3
+CNG,MI,Capac,1
+CNG,MI,China Township,1
+CNG,MI,Flint,1
+CNG,MN,St. Cloud,3
+CNG,MN,Blaine,2
+CNG,MN,Duluth,2
+CNG,MN,Mankato,2
+CNG,MN,Austin,1
+CNG,MO,Kansas City,7
+CNG,MO,St. Louis,3
+CNG,MO,Columbia,2
+CNG,MO,Lee's Summit,2
+CNG,MO,Springfield,2
+CNG,MS,Jackson,2
+CNG,MS,Mantachie,2
+CNG,MS,Biloxi,1
+CNG,MS,Booneville,1
+CNG,MS,Meridian,1
+CNG,MT,Billings,1
+CNG,NC,Charlotte,3
+CNG,NC,Durham,3
+CNG,NC,Gastonia,3
+CNG,NC,Greensboro,3
+CNG,NC,Raleigh,3
+CNG,ND,Tioga,1
+CNG,NE,Omaha,6
+CNG,NE,Lincoln,2
+CNG,NE,North Platte,1
+CNG,NE,Plattsmouth,1
+CNG,NH,Concord,1
+CNG,NH,Nashua,1
+CNG,NH,Pembroke,1
+CNG,NH,Rochester,1
+CNG,NJ,Camden,2
+CNG,NJ,Egg Harbor Township,2
+CNG,NJ,Lindenwold,2
+CNG,NJ,Middletown,2
+CNG,NJ,Toms River,2
+CNG,NM,Albuquerque,4
+CNG,NM,Deming,2
+CNG,NM,Santa Fe,2
+CNG,NM,Farmington,1
+CNG,NM,Rio Rancho,1
+CNG,NV,Las Vegas,2
+CNG,NV,Reno,2
+CNG,NV,North Las Vegas,1
+CNG,NV,Sparks,1
+CNG,NY,Bronx,6
+CNG,NY,Buffalo,5
+CNG,NY,Brooklyn,4
+CNG,NY,Rochester,4
+CNG,NY,Flushing,3
+CNG,OH,Columbus,7
+CNG,OH,Canton,5
+CNG,OH,Akron,2
+CNG,OH,Dayton,2
+CNG,OH,Findlay,2
+CNG,OK,Oklahoma City,23
+CNG,OK,Tulsa,16
+CNG,OK,Edmond,4
+CNG,OK,Norman,4
+CNG,OK,Lawton,3
+CNG,OR,Portland,5
+CNG,OR,Salem,2
+CNG,OR,Central Point,1
+CNG,OR,Eugene,1
+CNG,OR,Forest Grove,1
+CNG,PA,Pittsburgh,4
+CNG,PA,York,3
+CNG,PA,Bristol,2
+CNG,PA,Erie,2
+CNG,PA,Greensburg,2
+CNG,RI,Cranston,2
+CNG,RI,Kingston,1
+CNG,SC,Rock Hill,3
+CNG,SC,Greer,2
+CNG,SC,Anderson,1
+CNG,SC,Elgin,1
+CNG,SC,Greenville,1
+CNG,TN,Nashville,5
+CNG,TN,Knoxville,2
+CNG,TN,Memphis,2
+CNG,TN,Sevierville,2
+CNG,TN,Athens,1
+CNG,TX,Dallas,15
+CNG,TX,Houston,13
+CNG,TX,San Antonio,8
+CNG,TX,Fort Worth,7
+CNG,TX,Austin,5
+CNG,UT,Salt Lake City,11
+CNG,UT,West Jordan,4
+CNG,UT,Ogden,3
+CNG,UT,Cedar City,2
+CNG,UT,Logan,2
+CNG,VA,Richmond,6
+CNG,VA,Chesapeake,4
+CNG,VA,Sterling,2
+CNG,VA,Abingdon,1
+CNG,VA,Arlington,1
+CNG,VT,Burlington,1
+CNG,VT,South Burlington,1
+CNG,VT,Williston,1
+CNG,WA,Seattle,4
+CNG,WA,Auburn,2
+CNG,WA,SeaTac,2
+CNG,WA,Spokane,2
+CNG,WA,Spokane Valley,2
+CNG,WI,Green Bay,3
+CNG,WI,Appleton,2
+CNG,WI,De Pere,2
+CNG,WI,Eau Claire,2
+CNG,WI,La Crosse,2
+CNG,WV,Bridgeport,1
+CNG,WV,Charleston,1
+CNG,WV,South Charleston,1
+CNG,WY,Pinedale,2
+CNG,WY,Rock Springs,2
+CNG,WY,Afton,1
+CNG,WY,Cheyenne,1
+CNG,WY,Evanston,1
+E85,AL,Montgomery,5
+E85,AL,Huntsville,4
+E85,AL,Tuscaloosa,3
+E85,AL,Birmingham,2
+E85,AL,Alexander City,1
+E85,AR,Springdale,5
+E85,AR,Bentonville,4
+E85,AR,Conway,4
+E85,AR,Little Rock,4
+E85,AR,North Little Rock,4
+E85,AZ,Phoenix,4
+E85,AZ,Tempe,3
+E85,AZ,Sierra Vista,2
+E85,AZ,Tucson,2
+E85,AZ,Buckeye,1
+E85,CA,San Diego,9
+E85,CA,Sacramento,7
+E85,CA,Fresno,5
+E85,CA,Riverside,5
+E85,CA,San Bernardino,5
+E85,CO,Colorado Springs,26
+E85,CO,Denver,6
+E85,CO,Pueblo,5
+E85,CO,Greeley,4
+E85,CO,Thornton,4
+E85,CT,Greenwich,1
+E85,CT,Groton,1
+E85,CT,Waterford,1
+E85,DC,Washington,3
+E85,DE,Dover,1
+E85,FL,Jacksonville,14
+E85,FL,Orlando,6
+E85,FL,Miami,5
+E85,FL,Bradenton,4
+E85,FL,Tampa,4
+E85,GA,Atlanta,9
+E85,GA,Marietta,3
+E85,GA,Norcross,3
+E85,GA,Athens,2
+E85,GA,College Park,2
+E85,HI,Honolulu,1
+E85,IA,Des Moines,11
+E85,IA,Cedar Rapids,10
+E85,IA,Davenport,9
+E85,IA,West Des Moines,9
+E85,IA,Ankeny,8
+E85,ID,Idaho Falls,2
+E85,ID,Boise,1
+E85,ID,Caldwell,1
+E85,ID,Nampa,1
+E85,IL,Chicago,19
+E85,IL,Springfield,13
+E85,IL,Rockford,5
+E85,IL,Champaign,4
+E85,IL,North Aurora,4
+E85,IN,Indianapolis,28
+E85,IN,Fort Wayne,10
+E85,IN,Valparaiso,9
+E85,IN,Terre Haute,8
+E85,IN,Crown Point,7
+E85,KS,Wichita,7
+E85,KS,Salina,3
+E85,KS,Dodge City,2
+E85,KS,Garden City,2
+E85,KS,Lawrence,2
+E85,KY,Louisville,24
+E85,KY,Lexington,9
+E85,KY,Ashland,3
+E85,KY,Elizabethtown,2
+E85,KY,Hebron,2
+E85,LA,Bossier City,3
+E85,LA,Baton Rouge,2
+E85,LA,Fort Polk,2
+E85,LA,Lafayette,2
+E85,LA,New Orleans,2
+E85,MA,Charlton,2
+E85,MA,Cambridge,1
+E85,MA,Canton,1
+E85,MA,Chelsea,1
+E85,MA,Northampton,1
+E85,MD,Baltimore,3
+E85,MD,Gaithersburg,3
+E85,MD,Laurel,3
+E85,MD,Annapolis,2
+E85,MD,Bethesda,2
+E85,MI,Detroit,8
+E85,MI,Lansing,8
+E85,MI,Warren,6
+E85,MI,Ann Arbor,5
+E85,MI,East Lansing,5
+E85,MN,Minneapolis,18
+E85,MN,St. Paul,16
+E85,MN,Rochester,13
+E85,MN,St. Cloud,8
+E85,MN,Blaine,7
+E85,MO,Springfield,23
+E85,MO,Columbia,9
+E85,MO,St. Charles,4
+E85,MO,Jefferson City,3
+E85,MO,Joplin,3
+E85,MS,Batesville,1
+E85,MS,Olive Branch,1
+E85,MS,Southaven,1
+E85,MT,Malmstrom AFB,1
+E85,NC,Raleigh,10
+E85,NC,Greensboro,7
+E85,NC,Greenville,5
+E85,NC,High Point,4
+E85,NC,Camp Lejeune,3
+E85,ND,Fargo,11
+E85,ND,West Fargo,3
+E85,ND,Bismarck,2
+E85,ND,Devils Lake,2
+E85,ND,Drayton,2
+E85,NE,Omaha,17
+E85,NE,Lincoln,7
+E85,NE,Grand Island,4
+E85,NE,York,3
+E85,NE,Ainsworth,2
+E85,NJ,Cinnaminson,1
+E85,NJ,East Orange,1
+E85,NJ,Newark,1
+E85,NJ,Princeton,1
+E85,NJ,Shamong,1
+E85,NM,Albuquerque,5
+E85,NM,Las Cruces,3
+E85,NM,Rio Rancho,2
+E85,NM,Santa Fe,2
+E85,NM,Artesia,1
+E85,NV,Las Vegas,8
+E85,NV,North Las Vegas,3
+E85,NY,Newburgh,4
+E85,NY,Albany,3
+E85,NY,Baldwin,2
+E85,NY,Massapequa,2
+E85,NY,Port Jefferson Station,2
+E85,OH,Columbus,13
+E85,OH,Cincinnati,9
+E85,OH,Toledo,5
+E85,OH,Dayton,4
+E85,OH,Findlay,4
+E85,OK,Oklahoma City,25
+E85,OK,Tulsa,6
+E85,OK,Broken Arrow,4
+E85,OK,Edmond,4
+E85,OK,Owasso,4
+E85,OR,Eugene,2
+E85,OR,Bend,1
+E85,OR,Portland,1
+E85,PA,Pittsburgh,6
+E85,PA,Altoona,3
+E85,PA,Butler,3
+E85,PA,Carlisle,3
+E85,PA,Chambersburg,3
+E85,SC,Greenville,7
+E85,SC,Greer,4
+E85,SC,Anderson,3
+E85,SC,Columbia,3
+E85,SC,Ladson,3
+E85,SD,Sioux Falls,17
+E85,SD,Watertown,9
+E85,SD,Aberdeen,5
+E85,SD,Huron,3
+E85,SD,Rapid City,3
+E85,TN,Murfreesboro,10
+E85,TN,Nashville,8
+E85,TN,Clarksville,7
+E85,TN,Chattanooga,6
+E85,TN,Cleveland,5
+E85,TX,Houston,27
+E85,TX,San Antonio,12
+E85,TX,Dallas,9
+E85,TX,Cypress,7
+E85,TX,Conroe,6
+E85,UT,Orem,1
+E85,VA,Harrisonburg,5
+E85,VA,Woodbridge,4
+E85,VA,Lynchburg,3
+E85,VA,Ashburn,2
+E85,VA,Fredericksburg,2
+E85,WA,Richland,2
+E85,WA,Bremerton,1
+E85,WA,Fairchild AFB,1
+E85,WA,Fort Lewis,1
+E85,WA,Grandview,1
+E85,WI,Eau Claire,8
+E85,WI,Milwaukee,6
+E85,WI,Oshkosh,6
+E85,WI,Superior,6
+E85,WI,Wausau,6
+E85,WV,Parkersburg,4
+E85,WV,Morgantown,3
+E85,WV,Bridgeport,2
+E85,WV,Elkins,2
+E85,WV,Huntington,2
+E85,WY,Rock Springs,4
+E85,WY,Cheyenne,3
+E85,WY,Gillette,1
+ELEC,AK,Juneau,16
+ELEC,AK,Anchorage,7
+ELEC,AK,Cordova,2
+ELEC,AK,Soldotna,2
+ELEC,AK,Talkeetna,2
+ELEC,AL,Birmingham,33
+ELEC,AL,Mobile,30
+ELEC,AL,Huntsville,21
+ELEC,AL,Montgomery,14
+ELEC,AL,Auburn,11
+ELEC,AR,Little Rock,28
+ELEC,AR,Bentonville,16
+ELEC,AR,Fayetteville,13
+ELEC,AR,Conway,9
+ELEC,AR,North Little Rock,8
+ELEC,AZ,Phoenix,204
+ELEC,AZ,Scottsdale,118
+ELEC,AZ,Tempe,71
+ELEC,AZ,Chandler,67
+ELEC,AZ,Tucson,62
+ELEC,CA,Los Angeles,1315
+ELEC,CA,San Diego,674
+ELEC,CA,Irvine,515
+ELEC,CA,San Jose,494
+ELEC,CA,San Francisco,479
+ELEC,CO,Denver,258
+ELEC,CO,Boulder,172
+ELEC,CO,Fort Collins,65
+ELEC,CO,Aurora,53
+ELEC,CO,Longmont,43
+ELEC,CT,Hartford,37
+ELEC,CT,New Haven,27
+ELEC,CT,Fairfield,24
+ELEC,CT,Stamford,21
+ELEC,CT,Danbury,15
+ELEC,DC,Washington,261
+ELEC,DC,Anacostia Naval Station,1
+ELEC,DC,WA,1
+ELEC,DC,Washington Navy Yard,1
+ELEC,DE,Rehoboth Beach,15
+ELEC,DE,Newark,13
+ELEC,DE,Wilmington,13
+ELEC,DE,Dover,8
+ELEC,DE,Lewes,7
+ELEC,FL,Miami,214
+ELEC,FL,Orlando,209
+ELEC,FL,Tampa,115
+ELEC,FL,Jacksonville,108
+ELEC,FL,Fort Lauderdale,75
+ELEC,GA,Atlanta,572
+ELEC,GA,Alpharetta,64
+ELEC,GA,College Park,62
+ELEC,GA,Roswell,34
+ELEC,GA,Marietta,32
+ELEC,HI,Honolulu,135
+ELEC,HI,Kapolei,36
+ELEC,HI,Kahului,23
+ELEC,HI,Kailua-Kona,20
+ELEC,HI,Hilo,19
+ELEC,IA,Des Moines,19
+ELEC,IA,Cedar Rapids,18
+ELEC,IA,Coralville,18
+ELEC,IA,Iowa City,18
+ELEC,IA,Davenport,9
+ELEC,ID,Boise,42
+ELEC,ID,Idaho Falls,16
+ELEC,ID,Nampa,9
+ELEC,ID,Twin Falls,7
+ELEC,ID,Coeur d'Alene,6
+ELEC,IL,Chicago,250
+ELEC,IL,Evanston,28
+ELEC,IL,Naperville,22
+ELEC,IL,Normal,21
+ELEC,IL,Bloomington,20
+ELEC,IN,Indianapolis,60
+ELEC,IN,Fort Wayne,23
+ELEC,IN,Bloomington,12
+ELEC,IN,Carmel,11
+ELEC,IN,Lafayette,10
+ELEC,KS,Overland Park,156
+ELEC,KS,Olathe,47
+ELEC,KS,Lenexa,46
+ELEC,KS,Wichita,25
+ELEC,KS,Shawnee,19
+ELEC,KY,Louisville,50
+ELEC,KY,Lexington,14
+ELEC,KY,Bowling Green,9
+ELEC,KY,Elizabethtown,5
+ELEC,KY,Frankfort,5
+ELEC,LA,New Orleans,25
+ELEC,LA,Baton Rouge,24
+ELEC,LA,Kenner,13
+ELEC,LA,Lafayette,10
+ELEC,LA,Metairie,9
+ELEC,MA,Boston,301
+ELEC,MA,Cambridge,113
+ELEC,MA,Worcester,46
+ELEC,MA,Waltham,42
+ELEC,MA,Lowell,41
+ELEC,MD,Baltimore,235
+ELEC,MD,Columbia,80
+ELEC,MD,Rockville,57
+ELEC,MD,Bethesda,42
+ELEC,MD,Annapolis,36
+ELEC,ME,Portland,23
+ELEC,ME,Kennebunk,13
+ELEC,ME,South Portland,11
+ELEC,ME,Augusta,9
+ELEC,ME,Bar Harbor,8
+ELEC,MI,Detroit,85
+ELEC,MI,Grand Rapids,46
+ELEC,MI,Ann Arbor,44
+ELEC,MI,Traverse City,19
+ELEC,MI,Lansing,18
+ELEC,MN,Minneapolis,85
+ELEC,MN,Maplewood,28
+ELEC,MN,Saint Paul,27
+ELEC,MN,St. Paul,20
+ELEC,MN,St Paul,19
+ELEC,MO,Kansas City,457
+ELEC,MO,St Joseph,49
+ELEC,MO,St. Louis,41
+ELEC,MO,Springfield,33
+ELEC,MO,Lees Summit,32
+ELEC,MS,Jackson,12
+ELEC,MS,Biloxi,10
+ELEC,MS,Columbus,7
+ELEC,MS,Starkville,6
+ELEC,MS,Gulfport,5
+ELEC,MT,Missoula,9
+ELEC,MT,Bozeman,7
+ELEC,MT,Billings,6
+ELEC,MT,Big Sky,4
+ELEC,MT,Great Falls,4
+ELEC,NC,Charlotte,159
+ELEC,NC,Raleigh,109
+ELEC,NC,Durham,70
+ELEC,NC,Cary,51
+ELEC,NC,Asheville,41
+ELEC,ND,Fargo,13
+ELEC,ND,Grand Forks,6
+ELEC,ND,Bismarck,5
+ELEC,ND,Jamestown,4
+ELEC,ND,Dickinson,3
+ELEC,NE,Lincoln,38
+ELEC,NE,Omaha,36
+ELEC,NE,Kearney,7
+ELEC,NE,Seward,5
+ELEC,NE,South Sioux City,5
+ELEC,NH,Manchester,12
+ELEC,NH,Portsmouth,12
+ELEC,NH,Concord,7
+ELEC,NH,Salem,6
+ELEC,NH,Bedford,5
+ELEC,NJ,Jersey City,43
+ELEC,NJ,Newark,24
+ELEC,NJ,Woodcliff Lake,21
+ELEC,NJ,Paramus,16
+ELEC,NJ,Rutherford,15
+ELEC,NM,Santa Fe,52
+ELEC,NM,Albuquerque,41
+ELEC,NM,Los Lunas,8
+ELEC,NM,Farmington,6
+ELEC,NM,Las Cruces,6
+ELEC,NV,Las Vegas,190
+ELEC,NV,Reno,66
+ELEC,NV,Henderson,18
+ELEC,NV,Sparks,16
+ELEC,NV,Carson City,10
+ELEC,NY,New York,340
+ELEC,NY,Buffalo,118
+ELEC,NY,Rochester,117
+ELEC,NY,Albany,108
+ELEC,NY,Brooklyn,81
+ELEC,OH,Columbus,206
+ELEC,OH,Cincinnati,63
+ELEC,OH,Dayton,28
+ELEC,OH,Dublin,28
+ELEC,OH,Cleveland,21
+ELEC,OK,Oklahoma City,47
+ELEC,OK,Tulsa,47
+ELEC,OK,Edmond,18
+ELEC,OK,Norman,15
+ELEC,OK,Yukon,8
+ELEC,OR,Portland,171
+ELEC,OR,Hillsboro,59
+ELEC,OR,Salem,51
+ELEC,OR,Beaverton,45
+ELEC,OR,Eugene,36
+ELEC,PA,Pittsburgh,163
+ELEC,PA,Philadelphia,95
+ELEC,PA,Lancaster,41
+ELEC,PA,Allentown,35
+ELEC,PA,State College,22
+ELEC,PR,San Juan,2
+ELEC,PR,Guaynabo,1
+ELEC,PR,Rio Grande,1
+ELEC,RI,Providence,62
+ELEC,RI,Warwick,36
+ELEC,RI,Newport,16
+ELEC,RI,Johnston,11
+ELEC,RI,Cranston,8
+ELEC,SC,Greenville,43
+ELEC,SC,Columbia,38
+ELEC,SC,Charleston,29
+ELEC,SC,Greer,24
+ELEC,SC,Myrtle Beach,24
+ELEC,SD,Rapid City,10
+ELEC,SD,Custer,9
+ELEC,SD,Sioux Falls,9
+ELEC,SD,Aberdeen,4
+ELEC,SD,Keystone,3
+ELEC,TN,Nashville,193
+ELEC,TN,Chattanooga,60
+ELEC,TN,Knoxville,49
+ELEC,TN,Murfreesboro,30
+ELEC,TN,Brentwood,29
+ELEC,TX,Austin,477
+ELEC,TX,Houston,263
+ELEC,TX,Dallas,173
+ELEC,TX,San Antonio,153
+ELEC,TX,Fort Worth,94
+ELEC,UT,Salt Lake City,196
+ELEC,UT,Lehi,55
+ELEC,UT,Sandy,41
+ELEC,UT,Draper,40
+ELEC,UT,Herriman,37
+ELEC,VA,Arlington,112
+ELEC,VA,Richmond,75
+ELEC,VA,Alexandria,48
+ELEC,VA,Fairfax,33
+ELEC,VA,Ashburn,32
+ELEC,VT,Burlington,29
+ELEC,VT,Montpelier,22
+ELEC,VT,South Burlington,19
+ELEC,VT,Middlebury,14
+ELEC,VT,Stowe,14
+ELEC,WA,Seattle,355
+ELEC,WA,Bellevue,157
+ELEC,WA,Tacoma,64
+ELEC,WA,Renton,48
+ELEC,WA,Spokane,48
+ELEC,WI,Madison,80
+ELEC,WI,Milwaukee,54
+ELEC,WI,Green Bay,11
+ELEC,WI,Appleton,7
+ELEC,WI,Fitchburg,7
+ELEC,WV,Morgantown,8
+ELEC,WV,Huntington,6
+ELEC,WV,Berkeley Springs,5
+ELEC,WV,Davis,4
+ELEC,WV,Shepherdstown,4
+ELEC,WY,Jackson,17
+ELEC,WY,Cheyenne,5
+ELEC,WY,Riverton,3
+ELEC,WY,Rock Springs,3
+ELEC,WY,Sheridan,3
+LNG,AL,Birmingham,1
+LNG,AL,Theodore,1
+LNG,AZ,Phoenix,4
+LNG,AZ,Lake Havasu City,1
+LNG,AZ,Tempe,1
+LNG,AZ,Winslow,1
+LNG,CA,Los Angeles,4
+LNG,CA,Long Beach,3
+LNG,CA,Fontana,2
+LNG,CA,Redlands,2
+LNG,CA,Sacramento,2
+LNG,FL,Jacksonville,2
+LNG,FL,Ocala,1
+LNG,GA,Albany,1
+LNG,GA,Atlanta,1
+LNG,GA,Conley,1
+LNG,GA,Valdosta,1
+LNG,IL,Hodgkins,1
+LNG,IL,Pontoon Beach,1
+LNG,IN,Indianapolis,1
+LNG,KS,Kansas City,1
+LNG,KY,Georgetown,1
+LNG,LA,Lafayette,1
+LNG,MA,Everett,1
+LNG,MO,Earth City,1
+LNG,MS,Jackson,1
+LNG,MS,Pearl,1
+LNG,NC,Charlotte,1
+LNG,NE,North Platte,1
+LNG,NM,Albuquerque,1
+LNG,OH,Columbus,1
+LNG,OH,Maumee,1
+LNG,OH,Vandalia,1
+LNG,OR,Central Point,1
+LNG,OR,Clackamas,1
+LNG,PA,Carlisle,1
+LNG,PA,Harrisburg,1
+LNG,PA,Kutztown,1
+LNG,SC,Latta,1
+LNG,TN,Knoxville,2
+LNG,TN,Memphis,1
+LNG,TN,Nashville,1
+LNG,TX,Dallas,3
+LNG,TX,Baytown,2
+LNG,TX,Fort Worth,2
+LNG,TX,Mesquite,2
+LNG,TX,San Antonio,2
+LNG,WA,Fife,1
+LNG,WI,La Crosse,1
+LPG,AK,Craig,1
+LPG,AL,Mobile,3
+LPG,AL,Birmingham,2
+LPG,AL,Decatur,2
+LPG,AL,Huntsville,2
+LPG,AL,Montgomery,2
+LPG,AR,North Little Rock,2
+LPG,AR,Arkadelphia,1
+LPG,AR,Damascus,1
+LPG,AR,Heber Springs,1
+LPG,AR,Little Rock,1
+LPG,AZ,Phoenix,11
+LPG,AZ,Mesa,3
+LPG,AZ,Chandler,2
+LPG,AZ,Glendale,2
+LPG,AZ,Tempe,2
+LPG,CA,Los Angeles,5
+LPG,CA,San Diego,4
+LPG,CA,Bakersfield,3
+LPG,CA,Fresno,3
+LPG,CA,Riverside,3
+LPG,CO,Denver,4
+LPG,CO,Aurora,3
+LPG,CO,Colorado Springs,3
+LPG,CO,Lakewood,2
+LPG,CO,Pueblo West,2
+LPG,CT,Danbury,3
+LPG,CT,Guilford,1
+LPG,CT,Hamden,1
+LPG,CT,Hartford,1
+LPG,CT,South Windsor,1
+LPG,DE,Dover,1
+LPG,DE,Felton,1
+LPG,DE,Georgetown,1
+LPG,DE,Milford,1
+LPG,DE,New Castle,1
+LPG,FL,Orlando,9
+LPG,FL,Jacksonville,7
+LPG,FL,Tampa,5
+LPG,FL,Pensacola,4
+LPG,FL,Sarasota,3
+LPG,GA,Atlanta,2
+LPG,GA,Augusta,2
+LPG,GA,Columbus,2
+LPG,GA,Leesburg,2
+LPG,GA,Macon,2
+LPG,HI,Honolulu,1
+LPG,IA,Des Moines,2
+LPG,IA,Ames,1
+LPG,IA,Bettendorf,1
+LPG,IA,Coralville,1
+LPG,IA,Evansdale,1
+LPG,ID,Boise,2
+LPG,ID,Arco,1
+LPG,ID,Burley,1
+LPG,ID,Coeur D'Alene,1
+LPG,ID,Jerome,1
+LPG,IL,Chicago,5
+LPG,IL,Springfield,3
+LPG,IL,Cicero,2
+LPG,IL,Peoria,2
+LPG,IL,Antioch,1
+LPG,IN,Fort Wayne,4
+LPG,IN,Indianapolis,3
+LPG,IN,Evansville,2
+LPG,IN,Akron,1
+LPG,IN,Angola,1
+LPG,KS,Wichita,2
+LPG,KS,Concordia,1
+LPG,KS,Lenexa,1
+LPG,KS,Olathe,1
+LPG,KS,Overland Park,1
+LPG,KY,Lexington,1
+LPG,KY,Louisville,1
+LPG,KY,Madisonville,1
+LPG,KY,Princeton,1
+LPG,LA,Kenner,2
+LPG,LA,Choudrant,1
+LPG,LA,Ferriday,1
+LPG,LA,Greenwood,1
+LPG,LA,Homer,1
+LPG,MA,Norwood,2
+LPG,MA,Boston,1
+LPG,MA,Chelmsford,1
+LPG,MA,Chicopee,1
+LPG,MA,East Freetown,1
+LPG,MD,Baltimore,4
+LPG,MD,Laurel,2
+LPG,MD,Aberdeen,1
+LPG,MD,Capitol Heights,1
+LPG,MD,Easton,1
+LPG,ME,Biddeford,1
+LPG,ME,Madison,1
+LPG,MI,Grand Rapids,2
+LPG,MI,Lansing,2
+LPG,MI,Ann Arbor,1
+LPG,MI,Benton Harbor,1
+LPG,MI,Benzonia,1
+LPG,MN,Hermantown,2
+LPG,MN,Rochester,2
+LPG,MN,Sauk Centre,2
+LPG,MN,Winona,2
+LPG,MN,Albert Lea,1
+LPG,MO,Kansas City,3
+LPG,MO,Independence,2
+LPG,MO,Joplin,2
+LPG,MO,St. Louis,2
+LPG,MO,Aurora,1
+LPG,MS,Meridian,3
+LPG,MS,Gulfport,2
+LPG,MS,Biloxi,1
+LPG,MS,Brookhaven,1
+LPG,MS,Crystal Springs,1
+LPG,MT,Belgrade,1
+LPG,MT,Billings,1
+LPG,MT,Bridger,1
+LPG,MT,Columbia Falls,1
+LPG,MT,Dillon,1
+LPG,NC,Asheville,2
+LPG,NC,Hickory,2
+LPG,NC,Belmont,1
+LPG,NC,Boone,1
+LPG,NC,Charlotte,1
+LPG,ND,Bismarck,2
+LPG,ND,Bottineau,1
+LPG,ND,Jamestown,1
+LPG,ND,Valley City,1
+LPG,NE,Alma,1
+LPG,NE,Bridgeport,1
+LPG,NE,Grand Island,1
+LPG,NE,Hastings,1
+LPG,NE,Lincoln,1
+LPG,NH,Atkinson,1
+LPG,NH,Epping,1
+LPG,NH,Farmington,1
+LPG,NH,Lebanon,1
+LPG,NH,Manchester,1
+LPG,NJ,Absecon,1
+LPG,NJ,Cinnaminson,1
+LPG,NJ,Middletown,1
+LPG,NJ,Newton,1
+LPG,NJ,Scotch Plains,1
+LPG,NM,Las Vegas,3
+LPG,NM,Roswell,3
+LPG,NM,Albuquerque,2
+LPG,NM,Carlsbad,2
+LPG,NM,Las Cruces,2
+LPG,NV,Las Vegas,6
+LPG,NV,Elko,1
+LPG,NV,North Las Vegas,1
+LPG,NV,Reno,1
+LPG,NV,West Wendover,1
+LPG,NY,Buffalo,2
+LPG,NY,Albany,1
+LPG,NY,Bellport,1
+LPG,NY,Clymer,1
+LPG,NY,Elmira Heights,1
+LPG,OH,Columbus,5
+LPG,OH,Dayton,2
+LPG,OH,Toledo,2
+LPG,OH,Akron,1
+LPG,OH,Batavia,1
+LPG,OK,Oklahoma City,3
+LPG,OK,Tulsa,3
+LPG,OK,Broken Arrow,2
+LPG,OK,Broken Bow,2
+LPG,OK,Canute,2
+LPG,OR,Portland,5
+LPG,OR,Eugene,3
+LPG,OR,Klamath Falls,2
+LPG,OR,Salem,2
+LPG,OR,Albany,1
+LPG,PA,Philadelphia,3
+LPG,PA,Horsham,2
+LPG,PA,Pittsburgh,2
+LPG,PA,Allentown,1
+LPG,PA,Altoona,1
+LPG,RI,Cumberland,1
+LPG,RI,Newport,1
+LPG,RI,Warwick,1
+LPG,SC,Columbia,5
+LPG,SC,Florence,2
+LPG,SC,Greenville,2
+LPG,SC,Lexington,2
+LPG,SC,North Charleston,2
+LPG,SD,Rapid City,2
+LPG,SD,Aberdeen,1
+LPG,SD,Huron,1
+LPG,SD,Ipswich,1
+LPG,SD,Madison,1
+LPG,TN,Memphis,4
+LPG,TN,Nashville,3
+LPG,TN,Chattanooga,2
+LPG,TN,Jackson,2
+LPG,TN,Knoxville,2
+LPG,TX,Houston,12
+LPG,TX,San Antonio,7
+LPG,TX,Amarillo,4
+LPG,TX,Austin,4
+LPG,TX,El Paso,4
+LPG,UT,Salt Lake City,7
+LPG,UT,St. George,3
+LPG,UT,Ogden,2
+LPG,UT,Sandy,2
+LPG,UT,Bountiful,1
+LPG,VA,Richmond,5
+LPG,VA,Norfolk,3
+LPG,VA,Roanoke,3
+LPG,VA,Newport News,2
+LPG,VA,Virginia Beach,2
+LPG,WA,Seattle,4
+LPG,WA,Burlington,2
+LPG,WA,Everett,2
+LPG,WA,Lynnwood,2
+LPG,WA,Oak Harbor,2
+LPG,WI,Eau Claire,2
+LPG,WI,La Crosse,2
+LPG,WI,Milwaukee,2
+LPG,WI,Antigo,1
+LPG,WI,Appleton,1
+LPG,WV,Beckley,1
+LPG,WV,Bridgeport,1
+LPG,WV,Huntington,1
+LPG,WV,Parkersburg,1
+LPG,WV,St. Albans,1
+LPG,WY,Casper,1
+LPG,WY,Evanston,1
+LPG,WY,Marbleton,1
+LPG,WY,Sheridan,1
+LPG,WY,Thermopolis,1
