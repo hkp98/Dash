@@ -29,12 +29,11 @@ df = pd.read_csv("Chloropleth_1.csv")
 df1 = pd.read_csv("city3.csv")
 df2 = pd.read_csv("Fuel_Stations.csv")
 
-def func1():
-    fig = px.scatter_mapbox(df2, lat="Latitude", lon="Longitude", hover_name="Station Name", hover_data=["State", "Fuel Type Code"],
+
+fig = px.scatter_mapbox(df2, lat="Latitude", lon="Longitude", hover_name="Station Name", hover_data=["State", "Fuel Type Code"],
                         color_discrete_sequence=["fuchsia"], zoom=3, height=300)
-    fig.update_layout(mapbox_style="open-street-map", mapbox_accesstoken=mapbox_access_token)
-    fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-    return fig
+fig.update_layout(mapbox_style="open-street-map", mapbox_accesstoken=mapbox_access_token)
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 
 apper.layout = html.Div(
         className="container scalable",
@@ -47,7 +46,7 @@ apper.layout = html.Div(
             dcc.Graph(id='bar-graph',figure={}),
     ]),
     html.Div([  
-        dcc.Graph(id ='map', figure=func1)
+        dcc.Graph(id ='map', figure=fig)
     ])
         
 ])
@@ -81,8 +80,6 @@ def update_side_graph(state_chosen,fuel):
 #     dff3 = df2 
     
 #     return fig 
-
-
 
 if __name__ == '__main__':
     apper.run_server(debug=True)
