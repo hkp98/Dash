@@ -7,11 +7,11 @@ import plotly.express as px
 import pandas as pd 
 from app import app
 
-df = pd.read_csv("Dash-master//page2.csv")
-df_1 = pd.read_csv("Dash-master//bar_plot.csv")
-df_2 = pd.read_csv("Dash-master//condition_plots.csv")
-df_3 = pd.read_csv("Dash-master//drive_plots.csv")
-df_4 = pd.read_csv("Dash-master//fuel_plots.csv")
+df = pd.read_csv("page2.csv")
+df_1 = pd.read_csv("bar_plot.csv")
+df_2 = pd.read_csv("condition_plots.csv")
+df_3 = pd.read_csv("drive_plots.csv")
+df_4 = pd.read_csv("fuel_plots.csv")
 df = df.groupby(["car_year","state"]).mean()
 df = df.add_suffix('_Average').reset_index()
 
@@ -35,6 +35,8 @@ layout = html.Div(
                 dcc.Link('Home', href='home'),
         html.Div(id='app-2-display-value'),
                 dcc.Link('Dashboard', href='/apps/main'),
+        html.Div(id='app-3-display-value'),
+                dcc.Link('Alternative Fuel', href='/apps/apper'),
             dcc.Dropdown(id='dpdn2', value=['NJ','NY'], multi=True,
                  options=[{'label': x, 'value': x} for x in
                           df.state.unique()]),

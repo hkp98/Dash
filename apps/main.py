@@ -265,6 +265,8 @@ layout = html.Div(
                 dcc.Link('Home', href='home'),
         html.Div(id='app-2-display-value'),
                 dcc.Link('Buyers', href='/apps/buyers'),
+        html.Div(id='app-3-display-value'),
+                dcc.Link('Alternative Fuel', href='/apps/apper'),
         html.Div(
             id="upper-container",
             className="row",

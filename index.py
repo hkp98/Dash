@@ -3,7 +3,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 from app import app
-from apps import main, buyers
+from apps import main, buyers, apper
 import home
 
 
@@ -21,6 +21,8 @@ def display_page(pathname):
         return main.layout
     elif pathname == '/apps/buyers':
         return buyers.layout
+    elif pathname == '/apps/apper':
+        return apper.layout
     else:
         return home.layout
 
