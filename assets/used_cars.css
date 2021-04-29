@@ -1,0 +1,236 @@
+.container.scalable {
+  width: 100%;
+  max-width: none;
+}
+
+/* Remove Undo
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+._dash-undo-redo {
+  display: none;
+}
+
+body {
+  color: #06031f;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.banner {
+  height: 20rem;
+  margin-bottom: 1rem;
+  padding: 0rem 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.banner h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.banner Img {
+  position: relative;
+  height: 12rem;
+  width: 20rem;
+}
+
+#upper-container, #lower-container {
+  margin: 3rem 3rem;
+}
+
+#upper-left, #geo-map-outer {
+  padding: 5rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.control-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#state-select-outer, #select-metric-outer {
+  width: 45%;
+}
+
+#upper-left > div > label {
+  font-weight: bold;
+  margin: 40px 0px 10px 0px;
+}
+
+*.Select-control, Select--single, .Select-multi-value-wrapper, .Select-value, .Select-value-label {
+  background-color: #fcfcfc !important;
+  color: #000000 !important;
+}
+
+
+.Select-control, .Select-menu-outer {
+  border: 1px solid rgb(0, 0, 0) !important;
+}
+
+span.Select-clear-zone {
+  display: none !important;
+}
+
+.Select-menu-outer, .Select-menu-outer div, .Select--multi {
+  background-color: #ffffff !important;
+  color: #5c5b5b !important;
+}
+
+.Select-menu-outer div:hover {
+  color: rgb(0, 0, 0) !important;
+  cursor: pointer;
+}
+
+#region-select-all, #state-select-outer > label, #select-metric-outer > label {
+  margin-bottom: 3px;
+  color: #06031f;
+  font-weight: bold;
+}
+
+#geo-map-loading-outer {
+  height: 60rem;
+}
+
+#geo-map {
+  height: 60rem;
+}
+
+#select-metric-outer, #region-select-outer {
+  display: inline-block;
+}
+
+
+.section-title, #map-title {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.mapboxgl-canvas,
+.mapboxgl-map {
+  min-width: 100%;
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  */
+
+@media only screen and (max-width: 750px) {
+  .control-row-1 {
+    flex-direction: column;
+  }
+
+  #state-select-outer, #select-metric-outer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 750px), (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 41px;
+  }
+  h3 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .banner{
+    height: 30rem;  
+  }
+  .banner h1 {
+    font-size: 7.5rem;
+  }
+
+  .section-title, #map-title {
+    font-size: 50px;
+  }
+
+  .banner {
+    padding: 0rem 2rem;
+  }
+
+  .banner h6 {
+    font-size: 1.5rem;
+  }
+
+  .banner img {
+    height: 15.5rem;
+  }
+
+  #upper-container {
+    margin: 1rem;
+  }
+
+  #upper-left > div > label {
+    font-weight: normal;
+    margin-bottom: 2px;
+  }
+
+  #upper-left, #geo-map-outer {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #lower-container {
+    position: relative;
+  }
+
+  /* position procedure plot relative to outer div in mobile layout  */
+  #procedure-plot {
+    position: absolute;
+  }
+
+  g.yaxislayer-above > g > text {
+    font-size: 10px !important;
+  }
+  .rc-slider-mark-text{
+    font-size: 25px;
+  }
+  
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #upper-left, #geo-map-outer {
+    padding: 1rem 4rem;
+  }
+
+  #state-select-outer, #select-metric-outer {
+    width: 45%;
+  }
+
+}
+#dpdn2{
+  padding: 20px 20px;
+}
+#dpdn3{padding: 20px;}
+
+#dpdn3 label{cursor: pointer;}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .Select--single>.Select-control .Select-value, .Select-placeholder{
+    top: 25px !important;
+  }
+}
+
+.js-plotly-plot{
+  overflow: hidden;
+}
+#map{
+  height: 600px;;
+}

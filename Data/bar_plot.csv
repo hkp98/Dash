@@ -1,0 +1,256 @@
+state,manufacturer,count_manufacturer,manufacturer_Count,model
+AK,ford,862,ford,f-150
+AK,chevrolet,609,chevrolet,silverado 1500
+AK,toyota,299,subaru,outback
+AK,jeep,237,ram,1500
+AK,dodge,213,chevrolet,malibu
+AL,ford,1110,nissan,altima
+AL,chevrolet,843,chevrolet,silverado 1500
+AL,toyota,534,jeep,wrangler
+AL,nissan,386,toyota,camry
+AL,jeep,337,ford,f-150
+AR,chevrolet,983,gmc,sierra
+AR,ford,885,chevrolet,silverado 1500
+AR,toyota,289,chevrolet,silverado
+AR,honda,270,nissan,murano
+AR,nissan,269,ford,f-150
+AZ,ford,1376,honda,accord
+AZ,chevrolet,1310,toyota,camry
+AZ,toyota,806,ford,f-150
+AZ,nissan,496,nissan,altima
+AZ,honda,426,chevrolet,silverado 1500
+CA,ford,7512,ford,f-150
+CA,chevrolet,5807,honda,civic
+CA,toyota,5777,honda,accord
+CA,honda,3814,toyota,camry
+CA,nissan,2594,chevrolet,silverado 1500
+CO,ford,1877,jeep,grand cherokee
+CO,chevrolet,1299,subaru,outback
+CO,toyota,1196,ford,f-150
+CO,jeep,735,subaru,forester
+CO,honda,687,ram,1500
+CT,ford,780,toyota,corolla
+CT,chevrolet,628,honda,accord
+CT,toyota,511,nissan,altima
+CT,honda,484,subaru,outback
+CT,nissan,354,subaru,impreza
+DC,ford,348,toyota,camry
+DC,toyota,333,honda,odyssey
+DC,honda,290,toyota,corolla
+DC,chevrolet,218,honda,accord
+DC,nissan,215,honda,civic
+DE,ford,163,honda,cr-v
+DE,chevrolet,157,honda,civic
+DE,toyota,73,nissan,altima
+DE,honda,66,toyota,camry
+DE,nissan,56,honda,accord
+FL,ford,5109,ford,f-150
+FL,chevrolet,3520,toyota,camry
+FL,toyota,2671,toyota,corolla
+FL,nissan,1794,nissan,altima
+FL,honda,1472,chevrolet,silverado 1500
+GA,ford,1260,chevrolet,silverado 1500
+GA,chevrolet,960,honda,accord
+GA,toyota,693,toyota,camry
+GA,honda,444,ford,f-150
+GA,nissan,412,dodge,charger
+HI,toyota,499,toyota,tacoma
+HI,honda,277,honda,accord
+HI,ford,276,toyota,camry
+HI,bmw,267,bmw,330i
+HI,nissan,239,nissan,altima
+IA,chevrolet,1868,chevrolet,equinox
+IA,ford,1804,chevrolet,silverado 1500
+IA,toyota,574,ford,f-150
+IA,nissan,492,ford,escape
+IA,honda,400,ford,edge
+ID,ford,1797,chevrolet,silverado 1500
+ID,chevrolet,1084,ford,f-150
+ID,toyota,802,ram,1500
+ID,gmc,584,subaru,outback
+ID,jeep,578,toyota,camry
+IL,ford,1821,dodge,grand caravan
+IL,chevrolet,1566,ford,f-150
+IL,toyota,687,ford,escape
+IL,jeep,580,chevrolet,silverado 1500
+IL,honda,533,jeep,grand cherokee
+IN,ford,1294,chevrolet,silverado 1500
+IN,chevrolet,1213,ford,escape
+IN,toyota,476,ford,f-150
+IN,jeep,333,chevrolet,equinox
+IN,gmc,328,chevrolet,silverado
+KS,ford,1224,chevrolet,malibu
+KS,chevrolet,1161,ram,1500
+KS,toyota,418,ford,f-150
+KS,gmc,323,ford,fusion
+KS,honda,305,chevrolet,silverado 1500
+KY,ford,903,ford,escape
+KY,chevrolet,826,nissan,altima
+KY,toyota,439,toyota,camry
+KY,nissan,304,ford,f-150
+KY,jeep,236,chevrolet,silverado 1500
+LA,ford,606,toyota,camry
+LA,chevrolet,581,hyundai,elantra
+LA,toyota,302,ford,mustang
+LA,nissan,225,ford,f-150
+LA,honda,169,chevrolet,silverado 1500
+MA,ford,1277,toyota,camry
+MA,chevrolet,959,honda,civic
+MA,toyota,902,ford,escape
+MA,honda,680,chevrolet,silverado 1500
+MA,nissan,519,ford,f-150
+MD,ford,695,toyota,corolla
+MD,chevrolet,568,toyota,camry
+MD,toyota,375,nissan,altima
+MD,nissan,283,ford,f-150
+MD,honda,267,honda,accord
+ME,ford,442,toyota,tacoma
+ME,chevrolet,367,chevrolet,silverado 1500
+ME,toyota,318,chevrolet,silverado
+ME,subaru,161,jeep,wrangler
+ME,honda,160,ram,1500
+MI,ford,4228,ford,escape
+MI,chevrolet,3853,ford,f-150
+MI,gmc,1118,chevrolet,equinox
+MI,jeep,1099,chevrolet,cruze
+MI,dodge,965,chevrolet,malibu
+MN,ford,1684,ford,f-150
+MN,chevrolet,1680,chevrolet,equinox
+MN,toyota,587,dodge,grand caravan
+MN,honda,461,ford,explorer
+MN,jeep,419,chevrolet,silverado 1500
+MO,chevrolet,1216,chevrolet,silverado 1500
+MO,ford,941,ford,f-150
+MO,toyota,369,ford,explorer
+MO,nissan,286,chevrolet,equinox
+MO,jeep,274,chevrolet,malibu
+MS,ford,313,honda,accord
+MS,chevrolet,231,chevrolet,silverado 1500
+MS,toyota,138,ram,1500
+MS,nissan,117,ford,f-150
+MS,dodge,77,nissan,altima
+MT,ford,1430,ram,1500
+MT,chevrolet,1200,ford,f-150
+MT,ram,771,ford,f150
+MT,jeep,737,jeep,cherokee latitude plus
+MT,gmc,491,jeep,cherokee
+NC,chevrolet,2803,honda,cr-v
+NC,ford,2740,chevrolet,silverado 1500
+NC,toyota,1537,ford,f-150
+NC,honda,1159,honda,accord
+NC,nissan,847,chevrolet,tahoe
+ND,ford,166,ford,f-150
+ND,chevrolet,103,jeep,wrangler unlimited sahara
+ND,jeep,40,ford,f-150 xlt 4x4
+ND,dodge,37,dodge,grand caravan
+ND,gmc,35,ford,f-550
+NE,ford,516,ford,explorer
+NE,chevrolet,369,chevrolet,silverado 1500
+NE,jeep,101,ford,edge
+NE,toyota,88,chevrolet,equinox
+NE,gmc,81,ford,f-150
+NH,ford,444,chevrolet,silverado
+NH,chevrolet,372,toyota,tacoma
+NH,toyota,278,ford,f-150
+NH,jeep,179,jeep,grand cherokee
+NH,honda,164,chevrolet,silverado 1500
+NJ,ford,1256,honda,accord
+NJ,honda,874,nissan,altima
+NJ,chevrolet,846,honda,civic
+NJ,nissan,799,toyota,camry
+NJ,toyota,714,ford,explorer
+NM,ford,717,ford,f-150
+NM,chevrolet,582,toyota,camry
+NM,toyota,381,ram,2500
+NM,nissan,246,chevrolet,silverado 1500
+NM,jeep,197,nissan,altima
+NV,ford,406,bmw,3 series
+NV,chevrolet,341,toyota,corolla
+NV,toyota,288,nissan,altima
+NV,nissan,193,mercedes-benz,c-class
+NV,bmw,193,toyota,camry
+NY,ford,2972,ford,f-150
+NY,chevrolet,2639,honda,accord
+NY,toyota,1566,chevrolet,silverado 1500
+NY,honda,1366,toyota,camry
+NY,jeep,1117,honda,civic
+OH,ford,3524,ford,f-150
+OH,chevrolet,3164,chevrolet,silverado 1500
+OH,toyota,1048,ford,escape
+OH,honda,1019,dodge,grand caravan
+OH,jeep,885,chevrolet,equinox
+OK,ford,1245,chevrolet,silverado 1500
+OK,chevrolet,1205,ram,1500
+OK,toyota,382,chevrolet,silverado
+OK,dodge,347,chevrolet,tahoe
+OK,nissan,333,ford,f-150
+OR,ford,3345,toyota,tacoma
+OR,toyota,2008,ram,1500
+OR,chevrolet,1766,ford,f-150
+OR,honda,1117,chevrolet,silverado 1500
+OR,ram,944,subaru,outback
+PA,ford,2361,honda,civic
+PA,chevrolet,1812,nissan,altima
+PA,toyota,925,honda,accord
+PA,honda,720,toyota,camry
+PA,jeep,698,ford,f-150
+RI,ford,310,nissan,altima
+RI,toyota,277,honda,accord
+RI,chevrolet,263,ford,f-150
+RI,honda,148,toyota,camry
+RI,jeep,145,chevrolet,silverado 1500
+SC,ford,1323,honda,cr-v
+SC,chevrolet,1131,chevrolet,silverado 1500
+SC,toyota,750,jeep,wrangler
+SC,honda,473,toyota,tacoma
+SC,jeep,376,ford,f-150
+SD,chevrolet,488,ford,f-150
+SD,ford,432,chevrolet,malibu
+SD,ram,130,chevrolet,equinox
+SD,gmc,93,chevrolet,silverado 1500
+SD,toyota,88,chevrolet,impala
+TN,ford,2185,chevrolet,silverado 1500
+TN,chevrolet,1614,ford,f-150
+TN,toyota,1046,toyota,camry
+TN,nissan,780,nissan,altima
+TN,honda,723,honda,accord
+TX,ford,4669,ram,2500
+TX,chevrolet,3732,chevrolet,tahoe
+TX,toyota,1836,toyota,camry
+TX,nissan,1428,chevrolet,silverado 1500
+TX,ram,1282,ford,f-150
+UT,ford,232,ram,1500 4x4
+UT,chevrolet,210,chevrolet,traverse ls awd
+UT,toyota,92,dodge,grand caravan
+UT,dodge,82,chevrolet,express passenger
+UT,jeep,63,chevrolet,express cargo van
+VA,ford,1927,toyota,camry
+VA,chevrolet,1552,chevrolet,silverado 1500
+VA,toyota,1134,honda,civic
+VA,honda,904,honda,accord
+VA,nissan,753,ford,f-150
+VT,ford,405,nissan,rogue
+VT,toyota,350,chevrolet,silverado 1500
+VT,chevrolet,328,subaru,forester
+VT,nissan,298,toyota,tacoma
+VT,subaru,220,chevrolet,silverado
+WA,ford,2747,ford,f-150
+WA,chevrolet,1271,subaru,outback
+WA,toyota,1137,ram,1500
+WA,ram,837,toyota,tacoma
+WA,nissan,701,jeep,wrangler
+WI,ford,2360,chevrolet,silverado 1500
+WI,chevrolet,2237,ford,escape
+WI,toyota,964,dodge,grand caravan
+WI,honda,629,ford,f-150
+WI,jeep,624,chevrolet,impala
+WV,ford,246,ford,f-650sd
+WV,chevrolet,181,ford,f-150
+WV,jeep,62,ram,1500
+WV,ram,61,chevrolet,silverado 1500
+WV,toyota,57,ford,escape
+WY,ford,271,ford,f-150
+WY,chevrolet,140,ford,f-350
+WY,ram,115,ram,1500
+WY,toyota,79,chevrolet,silverado 1500
+WY,jeep,69,ram,3500

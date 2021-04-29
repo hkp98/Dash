@@ -1,0 +1,869 @@
+latitude,longitude,price,car_year,model,manufacturer,paint_color,state_region
+39.630389,-75.637608,0,2020,odyssey ex,honda,grey,DE - DELAWARE
+40.893137,-74.165983,41495,2020,mdx,acura,silver,DE - DELAWARE
+33.779214,-84.411811,35990,2020,1500 classic crew cab slt,ram,white,DE - DELAWARE
+39.7168,-75.6184,59950,2020,gladiator,jeep,white,DE - DELAWARE
+39.732075,-75.643448,32997,2020,ranger,ford,black,DE - DELAWARE
+33.7865,-84.4454,33990,2020,1500 classic crew cab slt,ram,black,DE - DELAWARE
+33.7865,-84.4454,27990,2020,f150 regular cab xlt pickup,ford,black,DE - DELAWARE
+33.7865,-84.4454,33990,2020,1500 classic crew cab slt,ram,black,DE - DELAWARE
+33.7865,-84.4454,19990,2020,corolla hybrid le sedan,toyota,red,DE - DELAWARE
+39.732075,-75.643448,72997,2020,escalade,cadillac,black,DE - DELAWARE
+39.757851,-75.56888,17999,2019,equinox,chevrolet,black,DE - DELAWARE
+39.757851,-75.56888,16592,2019,malibu,chevrolet,blue,DE - DELAWARE
+39.512938,-76.909548,52999,2019,f-350 crew cab xlt 4x4 drw,ford,white,DE - DELAWARE
+39.6264,-75.8458,19999,2019,camry,toyota,blue,DE - DELAWARE
+33.7865,-84.4454,9990,2019,fiesta se hatchback 4d,ford,grey,DE - DELAWARE
+33.779214,-84.411811,24590,2019,f150 regular cab xl pickup,ford,red,DE - DELAWARE
+39.757851,-75.56888,25684,2019,mustang,ford,blue,DE - DELAWARE
+39.512938,-76.909548,18500,2019,rogue sv,nissan,silver,DE - DELAWARE
+33.7865,-84.4454,13990,2019,fiesta se hatchback 4d,ford,black,DE - DELAWARE
+39.732075,-75.643448,35997,2019,glc,mercedes-benz,silver,DE - DELAWARE
+39.732075,-75.643448,24997,2019,cherokee,jeep,black,DE - DELAWARE
+39.512938,-76.909548,59999,2019,q8 3.0t quattro premium,audi,black,DE - DELAWARE
+39.757851,-75.56888,27081,2019,traverse,chevrolet,blue,DE - DELAWARE
+39.732075,-75.643448,62997,2019,yukon,gmc,white,DE - DELAWARE
+33.7865,-84.4454,24590,2019,f150 regular cab xl pickup,ford,white,DE - DELAWARE
+39.757851,-75.56888,37800,2019,traverse,chevrolet,silver,DE - DELAWARE
+39.6102,-75.6747,0,2019,transit,ford,purple,DE - DELAWARE
+39.757851,-75.56888,34359,2018,silverado 1500,chevrolet,black,DE - DELAWARE
+39.757851,-75.56888,26765,2018,traverse,chevrolet,silver,DE - DELAWARE
+33.779214,-84.411811,12990,2018,fiesta se hatchback 4d,ford,blue,DE - DELAWARE
+39.757851,-75.56888,15999,2018,equinox,chevrolet,silver,DE - DELAWARE
+39.757851,-75.56888,18355,2018,equinox,chevrolet,red,DE - DELAWARE
+39.757851,-75.56888,14995,2018,trax,chevrolet,red,DE - DELAWARE
+33.779214,-84.411811,29990,2018,f150 supercrew cab xlt,ford,black,DE - DELAWARE
+39.757851,-75.56888,20800,2018,explorer,ford,silver,DE - DELAWARE
+39.512938,-76.909548,47999,2018,2500 crew cab 4x4 mega cab laramie,ram,white,DE - DELAWARE
+39.512938,-76.909548,54999,2018,silverado 2500 crew cab ltz 4x4,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,43999,2018,2500 crew cab slt 4x4,ram,white,DE - DELAWARE
+38.9218,-75.4299,27500,2018,transit,ford,blue,DE - DELAWARE
+40.4226,-74.1799,20995,2018,rav 4,toyota,red,DE - DELAWARE
+33.779214,-84.411811,29990,2018,wrangler sahara (jk) sport,jeep,silver,DE - DELAWARE
+39.512938,-76.909548,44999,2018,2500 crew cab tradesman 4x4,ram,white,DE - DELAWARE
+39.512938,-76.909548,47999,2018,2500 crew cab 4x4 mega cab laramie,ram,white,DE - DELAWARE
+39.512938,-76.909548,40999,2018,f-250 crew cab xl flat bed 4x4,ford,white,DE - DELAWARE
+33.7865,-84.4454,32590,2018,f150 supercrew cab xlt,ford,red,DE - DELAWARE
+39.757851,-75.56888,15899,2018,cruze,chevrolet,blue,DE - DELAWARE
+33.779214,-84.411811,25990,2018,i3 s w/range extender,bmw,black,DE - DELAWARE
+38.679,-75.3932,20995,2018,crosstrek,subaru,blue,DE - DELAWARE
+33.779214,-84.411811,32990,2018,silverado 1500 regular,chevrolet,white,DE - DELAWARE
+33.7865,-84.4454,23990,2018,f150 regular cab xl pickup,ford,black,DE - DELAWARE
+33.779214,-84.411811,22990,2018,silverado 1500 regular,chevrolet,white,DE - DELAWARE
+39.7011,-75.7375,33490,2018,silverado,chevrolet,brown,DE - DELAWARE
+39.512938,-76.909548,40999,2018,f-250 crew cab xl flat bed 4x4,ford,white,DE - DELAWARE
+39.757851,-75.56888,32000,2018,ridgeline,honda,black,DE - DELAWARE
+33.7865,-84.4454,26990,2018,i3 s w/range extender,bmw,black,DE - DELAWARE
+39.512938,-76.909548,54999,2018,silverado 2500 crew cab ltz 4x4,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,44999,2018,2500 crew cab tradesman 4x4,ram,white,DE - DELAWARE
+39.829891,-75.125281,14550,2018,clarity plug-in hybrid,honda,white,DE - DELAWARE
+39.757851,-75.56888,37846,2018,silverado 1500,chevrolet,silver,DE - DELAWARE
+39.732075,-75.643448,24997,2018,charger,dodge,black,DE - DELAWARE
+39.757851,-75.56888,38750,2018,tahoe,chevrolet,black,DE - DELAWARE
+33.779214,-84.411811,31990,2018,sierra 1500 double cab sle,gmc,black,DE - DELAWARE
+33.779214,-84.411811,31990,2018,sierra 1500 double cab sle,gmc,silver,DE - DELAWARE
+40.893137,-74.165983,13450,2017,optima,kia,grey,DE - DELAWARE
+39.205558,-75.563668,12990,2017,patriot,jeep,red,DE - DELAWARE
+39.732075,-75.643448,23998,2017,pacifica,chrysler,black,DE - DELAWARE
+39.8044,-75.4649,7000,2017,300 c,chrysler,black,DE - DELAWARE
+40.468826,-74.281734,40990,2017,super duty f-650 straight frame,ford,white,DE - DELAWARE
+33.779214,-84.411811,32990,2017,1500 crew cab slt pickup 4d,ram,red,DE - DELAWARE
+39.7434,-75.5827,15500,2017,camry xle,toyota,grey,DE - DELAWARE
+40.893137,-74.165983,11400,2017,sorento,kia,black,DE - DELAWARE
+39.757851,-75.56888,18250,2017,forester,subaru,black,DE - DELAWARE
+33.779214,-84.411811,26990,2017,tacoma double cab sr5,toyota,red,DE - DELAWARE
+33.779214,-84.411811,31990,2017,wrangler unlimited sport s,jeep,blue,DE - DELAWARE
+33.779214,-84.411811,28590,2017,tacoma access cab sr5,toyota,purple,DE - DELAWARE
+39.757851,-75.56888,18888,2017,traverse,chevrolet,silver,DE - DELAWARE
+39.512938,-76.909548,36999,2017,2500 crew cab tradesman 4x4,ram,white,DE - DELAWARE
+39.512938,-76.909548,41999,2017,3500 crew cab tradesman 4x4 drw,ram,silver,DE - DELAWARE
+39.512938,-76.909548,37999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.512938,-76.909548,46999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.512938,-76.909548,38999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.5929,-75.6515,40995,2017,ss sedan,chevrolet,orange,DE - DELAWARE
+39.757851,-75.56888,21469,2017,enclave,buick,red,DE - DELAWARE
+39.757851,-75.56888,31700,2017,silverado 1500,chevrolet,purple,DE - DELAWARE
+39.757851,-75.56888,21000,2017,traverse,chevrolet,black,DE - DELAWARE
+39.757851,-75.56888,33333,2017,silverado 1500,chevrolet,blue,DE - DELAWARE
+33.7865,-84.4454,21590,2017,f150 regular cab xl pickup,ford,white,DE - DELAWARE
+33.779214,-84.411811,22990,2017,silverado 1500 regular,chevrolet,white,DE - DELAWARE
+39.205558,-75.563668,12990,2017,patriot,jeep,red,DE - DELAWARE
+39.757851,-75.56888,14670,2017,trax,chevrolet,silver,DE - DELAWARE
+39.757851,-75.56888,28400,2017,colorado,chevrolet,red,DE - DELAWARE
+33.779214,-84.411811,40990,2017,tundra crewmax 1794,toyota,white,DE - DELAWARE
+39.796,-75.445,16899,2017,camry,toyota,black,DE - DELAWARE
+39.757851,-75.56888,15995,2017,trax,chevrolet,red,DE - DELAWARE
+39.757851,-75.56888,14375,2017,cruze,chevrolet,white,DE - DELAWARE
+33.779214,-84.411811,15590,2017,cc 2.0t sport sedan,volkswagen,black,DE - DELAWARE
+33.779214,-84.411811,30990,2017,wrangler unlimited sport s,jeep,blue,DE - DELAWARE
+33.779214,-84.411811,30990,2017,1500 crew cab slt pickup 4d,ram,black,DE - DELAWARE
+38.5617,-75.0966,22500,2017,prius,toyota,silver,DE - DELAWARE
+40.468826,-74.281734,21990,2017,savana cargo van,gmc,red,DE - DELAWARE
+39.512938,-76.909548,33999,2017,silverado 2500 crew cab w/t utility bed 4x4,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,36999,2017,3500 crew cab tradesman 4x4,ram,black,DE - DELAWARE
+39.512938,-76.909548,36999,2017,2500 crew cab tradesman 4x4,ram,white,DE - DELAWARE
+39.6349,-75.6993,6975,2017,accent se,hyundai,black,DE - DELAWARE
+39.675674,-75.753536,8400,2017,accent se sedan 4d,hyundai,white,DE - DELAWARE
+39.732075,-75.643448,29997,2017,grand cherokee,jeep,purple,DE - DELAWARE
+39.205558,-75.563668,12990,2017,patriot,jeep,red,DE - DELAWARE
+39.757851,-75.56888,16150,2017,malibu,chevrolet,silver,DE - DELAWARE
+39.757851,-75.56888,36900,2017,1500,ram,red,DE - DELAWARE
+40.893137,-74.165983,8700,2017,sonata,hyundai,grey,DE - DELAWARE
+39.757851,-75.56888,26500,2017,grand cherokee,jeep,brown,DE - DELAWARE
+33.779214,-84.411811,27990,2017,tacoma double cab sr5,toyota,silver,DE - DELAWARE
+33.779214,-84.411811,28590,2017,wrangler unlimited sport s,jeep,black,DE - DELAWARE
+39.512938,-76.909548,41999,2017,3500 crew cab tradesman 4x4 drw,ram,silver,DE - DELAWARE
+39.512938,-76.909548,33999,2017,silverado 2500 crew cab w/t utility bed 4x4,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,36999,2017,3500 crew cab tradesman 4x4,ram,black,DE - DELAWARE
+39.512938,-76.909548,36999,2017,2500 crew cab tradesman 4x4,ram,white,DE - DELAWARE
+39.512938,-76.909548,37999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.512938,-76.909548,46999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.512938,-76.909548,38999,2017,f-250 crew cab xlt 4x4,ford,white,DE - DELAWARE
+39.757851,-75.56888,16497,2017,impala,chevrolet,white,DE - DELAWARE
+33.779214,-84.411811,28990,2017,silverado 1500 double,chevrolet,red,DE - DELAWARE
+39.757851,-75.56888,17100,2017,bolt ev,chevrolet,red,DE - DELAWARE
+39.757851,-75.56888,21700,2017,rav4,toyota,silver,DE - DELAWARE
+40.468826,-74.281734,40990,2017,super duty f-650 straight frame,ford,white,DE - DELAWARE
+40.468826,-74.281734,39990,2017,super duty f-650 straight frame,ford,white,DE - DELAWARE
+33.7865,-84.4454,22590,2017,camry hybrid xle sedan 4d,toyota,white,DE - DELAWARE
+33.7865,-84.4454,35990,2017,colorado crew cab zr2,chevrolet,red,DE - DELAWARE
+39.732075,-75.643448,28698,2017,grand cherokee,jeep,brown,DE - DELAWARE
+40.893137,-74.165983,11900,2017,accord,honda,black,DE - DELAWARE
+33.779214,-84.411811,30990,2017,wrangler unlimited sport,jeep,white,DE - DELAWARE
+33.779214,-84.411811,34990,2017,tacoma double cab trd,toyota,purple,DE - DELAWARE
+39.747,-75.592,8900,2017,altima,nissan,black,DE - DELAWARE
+39.732075,-75.643448,14998,2017,jetta,volkswagen,white,DE - DELAWARE
+33.779214,-84.411811,31990,2017,sierra 1500 double cab sle,gmc,brown,DE - DELAWARE
+39.205558,-75.563668,16990,2016,santa fe,hyundai,silver,DE - DELAWARE
+39.140251,-75.522885,8595,2016,elantra se,hyundai,blue,DE - DELAWARE
+40.468826,-74.281734,52990,2016,5500,ram,black,DE - DELAWARE
+40.468826,-74.281734,39990,2016,fuso fe180,mitsubishi,white,DE - DELAWARE
+39.732075,-75.643448,28687,2016,is 350,lexus,silver,DE - DELAWARE
+39.757851,-75.56888,36499,2016,tahoe,chevrolet,brown,DE - DELAWARE
+39.512938,-76.909548,35999,2016,f-250 ext cab xlt 4x4,ford,brown,DE - DELAWARE
+39.7359,-75.6647,32000,2016,sierra,gmc,white,DE - DELAWARE
+39.512938,-76.909548,32999,2016,silverado 2500 crew cab lt 4x4,chevrolet,silver,DE - DELAWARE
+39.140251,-75.522885,10995,2016,altima 2.5 s,nissan,grey,DE - DELAWARE
+39.205558,-75.563668,16990,2016,santa fe,hyundai,silver,DE - DELAWARE
+33.779214,-84.411811,34990,2016,challenger r/t scat pack,dodge,red,DE - DELAWARE
+40.893137,-74.165983,7900,2016,journey,dodge,white,DE - DELAWARE
+33.779214,-84.411811,27590,2016,tacoma double cab sr5,toyota,black,DE - DELAWARE
+40.468826,-74.281734,26990,2016,super duty f-350 drw,ford,grey,DE - DELAWARE
+40.468826,-74.281734,34990,2016,super duty f-650 straight frame,ford,white,DE - DELAWARE
+40.468826,-74.281734,52990,2016,5500,ram,black,DE - DELAWARE
+40.468826,-74.281734,34990,2016,super duty f-650 straight frame,ford,white,DE - DELAWARE
+40.468826,-74.281734,34990,2016,super duty f-650 straight frame,ford,white,DE - DELAWARE
+39.512938,-76.909548,46999,2016,f-250 crew cab lariat 4x4,ford,black,DE - DELAWARE
+39.512938,-76.909548,39999,2016,sierra 2500 slt,gmc,white,DE - DELAWARE
+39.757851,-75.56888,31555,2016,silverado 1500,chevrolet,white,DE - DELAWARE
+38.531,-75.0674,22000,2016,pilot,honda,white,DE - DELAWARE
+39.205558,-75.563668,16990,2016,santa fe,hyundai,silver,DE - DELAWARE
+39.732075,-75.643448,22997,2016,pathfinder,nissan,black,DE - DELAWARE
+40.468826,-74.281734,35990,2016,super duty f-550 drw,ford,white,DE - DELAWARE
+39.6102,-75.6747,13450,2016,civic,honda,grey,DE - DELAWARE
+33.7865,-84.4454,15990,2016,cc 2.0t sport sedan,volkswagen,white,DE - DELAWARE
+33.7865,-84.4454,39990,2016,1500 crew cab rebel pickup,ram,grey,DE - DELAWARE
+39.512938,-76.909548,39999,2016,sierra 2500 slt,gmc,white,DE - DELAWARE
+39.512938,-76.909548,39999,2016,f-350 crew cab xlt 4x4 drw,ford,white,DE - DELAWARE
+39.5929,-75.6515,14700,2016,frontier,nissan,green,DE - DELAWARE
+33.7865,-84.4454,21990,2016,1500 regular cab express,ram,grey,DE - DELAWARE
+40.468826,-74.281734,37990,2016,super duty f-650 straight frame,ford,white,DE - DELAWARE
+40.468826,-74.281734,36990,2016,super duty f-650 straight frame,ford,white,DE - DELAWARE
+33.7865,-84.4454,30990,2016,x4 m40i sport utility 4d,bmw,black,DE - DELAWARE
+40.893137,-74.165983,7800,2016,jetta,volkswagen,red,DE - DELAWARE
+39.757851,-75.56888,32550,2016,suburban,chevrolet,black,DE - DELAWARE
+33.7865,-84.4454,22990,2016,mx-5 miata club,mazda,red,DE - DELAWARE
+39.757851,-75.56888,15200,2016,escape,ford,silver,DE - DELAWARE
+39.7434,-75.5827,4900,2016,soul +,kia,silver,DE - DELAWARE
+33.7865,-84.4454,36990,2016,tundra crewmax sr5 pickup,toyota,red,DE - DELAWARE
+38.5177,-75.2006,31500,2016,e-class,mercedes-benz,black,DE - DELAWARE
+39.829891,-75.125281,14399,2016,altima,nissan,red,DE - DELAWARE
+33.7865,-84.4454,31990,2016,f150 supercrew cab xlt,ford,white,DE - DELAWARE
+39.757851,-75.56888,11900,2016,cruze,chevrolet,silver,DE - DELAWARE
+38.531,-75.0674,10500,2016,elantra gt hatchback,hyundai,red,DE - DELAWARE
+39.732075,-75.643448,30997,2016,tacoma,toyota,red,DE - DELAWARE
+39.205558,-75.563668,17500,2015,xts,cadillac,black,DE - DELAWARE
+39.140251,-75.522885,10495,2015,malibu lt,chevrolet,grey,DE - DELAWARE
+33.779214,-84.411811,34990,2015,silverado 2500 hd crew,chevrolet,blue,DE - DELAWARE
+33.779214,-84.411811,18990,2015,mx-5 miata club,mazda,silver,DE - DELAWARE
+40.468826,-74.281734,34990,2015,super duty f-550 drw,ford,white,DE - DELAWARE
+40.468826,-74.281734,20990,2015,express commercial cutaway,chevrolet,white,DE - DELAWARE
+39.140251,-75.522885,7995,2015,soul,kia,brown,DE - DELAWARE
+39.855,-75.7,22400,2015,benz c300,mercedes-benz,blue,DE - DELAWARE
+39.512938,-76.909548,31999,2015,f-250 crew cab xl 4x4,ford,red,DE - DELAWARE
+39.6264,-75.8458,11000,2015,altima,nissan,red,DE - DELAWARE
+39.6264,-75.8458,12000,2015,accord,honda,white,DE - DELAWARE
+33.779214,-84.411811,20590,2015,mx-5 miata club,mazda,red,DE - DELAWARE
+33.779214,-84.411811,22990,2015,silverado 1500 regular,chevrolet,red,DE - DELAWARE
+39.205558,-75.563668,17500,2015,xts,cadillac,black,DE - DELAWARE
+39.673464,-75.700484,10500,2015,rogue,nissan,black,DE - DELAWARE
+39.512938,-76.909548,24999,2015,2500 159 wb,ram,white,DE - DELAWARE
+40.468826,-74.281734,41990,2015,super duty f-350 drw,ford,silver,DE - DELAWARE
+39.757851,-75.56888,30900,2015,camaro,chevrolet,yellow,DE - DELAWARE
+39.512938,-76.909548,33999,2015,sierra 2500 crewcab sle 4x4,gmc,custom,DE - DELAWARE
+33.7865,-84.4454,0,2015,intern,dodge,white,DE - DELAWARE
+33.779214,-84.411811,19990,2015,mx-5 miata club,mazda,red,DE - DELAWARE
+39.205558,-75.563668,17500,2015,xts,cadillac,black,DE - DELAWARE
+39.757851,-75.56888,37000,2015,tahoe,chevrolet,white,DE - DELAWARE
+33.779214,-84.411811,27990,2015,wrangler unlimited sport s,jeep,red,DE - DELAWARE
+33.7865,-84.4454,28990,2015,f150 supercrew cab xlt,ford,red,DE - DELAWARE
+40.468826,-74.281734,44990,2015,5500,ram,white,DE - DELAWARE
+39.512938,-76.909548,37999,2015,silverado 2500 crew cab lt 4x4,chevrolet,red,DE - DELAWARE
+40.893137,-74.165983,7700,2015,sonata,hyundai,silver,DE - DELAWARE
+39.701929,-75.570787,5495,2015,civic,honda,black,DE - DELAWARE
+39.6264,-75.8458,10999,2015,prius v,toyota,custom,DE - DELAWARE
+39.7473,-75.0899,10995,2015,3 series 320i xdrive,bmw,red,DE - DELAWARE
+33.779214,-84.411811,31990,2015,silverado 1500 regular,chevrolet,red,DE - DELAWARE
+39.7473,-75.0899,7495,2015,jetta,volkswagen,blue,DE - DELAWARE
+33.7865,-84.4454,43990,2015,silverado 3500 hd crew,chevrolet,white,DE - DELAWARE
+38.7381,-75.1747,7000,2015,dart sxt,dodge,silver,DE - DELAWARE
+39.7085,-75.6662,6500,2015,200,chrysler,silver,DE - DELAWARE
+38.926765,-75.571207,0,2015,intern,dodge,white,DE - DELAWARE
+38.548302,-75.237097,9995,2015,200 limited,chrysler,white,DE - DELAWARE
+40.468826,-74.281734,24990,2014,express commercial cutaway,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,49990,2014,super duty f-550 drw,ford,white,DE - DELAWARE
+40.468826,-74.281734,17990,2014,econoline,ford,white,DE - DELAWARE
+33.779214,-84.411811,23590,2014,challenger r/t coupe 2d,dodge,red,DE - DELAWARE
+33.779214,-84.411811,19990,2014,silverado 1500 regular,chevrolet,black,DE - DELAWARE
+33.779214,-84.411811,30590,2014,wrangler unlimited sport s,jeep,blue,DE - DELAWARE
+40.893137,-74.165983,10950,2014,traverse,chevrolet,red,DE - DELAWARE
+33.779214,-84.411811,18590,2014,beetle 1.8t,volkswagen,black,DE - DELAWARE
+38.7381,-75.1747,18500,2014,pilot ex-l,honda,black,DE - DELAWARE
+40.01884,-74.94716,7295,2014,accord coupe,honda,black,DE - DELAWARE
+39.8857,-75.3082,0,2014,savana,gmc,black,DE - DELAWARE
+33.779214,-84.411811,28990,2014,tundra double cab sr,toyota,black,DE - DELAWARE
+39.599766,-75.81522,5500,2014,versa note sl,nissan,silver,DE - DELAWARE
+38.548302,-75.237097,10495,2014,forester 2.5i premium,subaru,red,DE - DELAWARE
+33.779214,-84.411811,30590,2014,sierra 1500 double cab sle,gmc,black,DE - DELAWARE
+40.893137,-74.165983,7500,2014,jetta,volkswagen,black,DE - DELAWARE
+39.140251,-75.522885,10395,2014,flex sel awd,ford,white,DE - DELAWARE
+40.4226,-74.1799,20995,2014,benz ml350 4matic,mercedes-benz,grey,DE - DELAWARE
+39.512938,-76.909548,35999,2014,silverado 2500 crew cab ltz 4x4,chevrolet,red,DE - DELAWARE
+40.468826,-74.281734,22990,2014,express,chevrolet,white,DE - DELAWARE
+40.01884,-74.94716,7995,2014,accord coupe,honda,black,DE - DELAWARE
+39.609236,-75.710026,5500,2014,optima,kia,silver,DE - DELAWARE
+39.512938,-76.909548,36999,2014,silverado 2500 crew cab lt 4x4,chevrolet,black,DE - DELAWARE
+33.779214,-84.411811,28990,2014,sierra 1500 double cab sle,gmc,red,DE - DELAWARE
+39.4815,-75.6832,14500,2014,sante fe sport 2.0t,hyundai,white,DE - DELAWARE
+39.663433,-75.627565,4425,2014,rio,kia,white,DE - DELAWARE
+38.688093,-75.101137,13500,2014,es 300h,lexus,black,DE - DELAWARE
+39.6349,-75.6993,5875,2014,traverse lt,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,23990,2014,express commercial cutaway,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,31990,2014,econoline commercial cutaway,ford,white,DE - DELAWARE
+40.468826,-74.281734,33990,2014,super duty f-550 drw,ford,white,DE - DELAWARE
+39.512938,-76.909548,29999,2014,f-250 ext cab lariat 4x4,ford,black,DE - DELAWARE
+38.642925,-75.634674,5500,2014,altima 2.5 s,nissan,black,DE - DELAWARE
+33.7865,-84.4454,27990,2014,silverado 1500 double,chevrolet,grey,DE - DELAWARE
+38.782297,-75.227165,17500,2014,es350,lexus,purple,DE - DELAWARE
+33.7865,-84.4454,30990,2014,silverado 2500 hd crew,chevrolet,red,DE - DELAWARE
+39.701929,-75.570787,4995,2014,sorento,kia,blue,DE - DELAWARE
+33.779214,-84.411811,36990,2014,c-class c 63 amg,mercedes-benz,red,DE - DELAWARE
+39.512938,-76.909548,29999,2014,f-250 ext cab lariat 4x4,ford,black,DE - DELAWARE
+39.829891,-75.125281,11790,2014,accord sedan,honda,grey,DE - DELAWARE
+39.829891,-75.125281,14490,2014,santa fe,hyundai,brown,DE - DELAWARE
+33.7865,-84.4454,12590,2014,jetta sportwagen 2.0l,volkswagen,black,DE - DELAWARE
+38.679,-75.3932,16495,2014,cherokee 4x4 trailhawk,jeep,white,DE - DELAWARE
+40.893137,-74.165983,8491,2014,altima,nissan,black,DE - DELAWARE
+39.757851,-75.56888,14350,2014,camaro,chevrolet,blue,DE - DELAWARE
+33.779214,-84.411811,27990,2014,sierra 1500 double cab sle,gmc,blue,DE - DELAWARE
+39.391824,-75.698801,5600,2013,prius c,toyota,blue,DE - DELAWARE
+39.140251,-75.522885,10195,2013,xts,cadillac,blue,DE - DELAWARE
+38.548302,-75.237097,10795,2013,camry se,toyota,white,DE - DELAWARE
+38.548302,-75.237097,8395,2013,optima lx,kia,silver,DE - DELAWARE
+40.468826,-74.281734,27990,2013,silverado 3500hd,chevrolet,white,DE - DELAWARE
+40.893137,-74.165983,8500,2013,passat,volkswagen,white,DE - DELAWARE
+39.618698,-75.694663,9500,2013,suburban,chevrolet,black,DE - DELAWARE
+38.548302,-75.237097,9395,2013,malibu lt,chevrolet,black,DE - DELAWARE
+39.140251,-75.522885,9795,2013,fusion se,ford,black,DE - DELAWARE
+39.7011,-75.7375,8000,2013,sorento,kia,silver,DE - DELAWARE
+33.779214,-84.411811,23990,2013,silverado 1500,chevrolet,white,DE - DELAWARE
+39.205558,-75.563668,16800,2013,328xi,bmw,grey,DE - DELAWARE
+38.548302,-75.237097,10495,2013,fusion hybrid se,ford,white,DE - DELAWARE
+33.7865,-84.4454,23990,2013,tundra crewmax pickup 4d,toyota,black,DE - DELAWARE
+33.779214,-84.411811,13590,2013,beetle 2.5l hatchback,volkswagen,silver,DE - DELAWARE
+39.448798,-75.688804,12500,2013,mkz,lincoln,white,DE - DELAWARE
+40.01884,-74.94716,7395,2013,town country,chrysler,silver,DE - DELAWARE
+33.779214,-84.411811,19990,2013,g g37x coupe 2d,infiniti,black,DE - DELAWARE
+39.140251,-75.522885,7495,2013,focus titanium,ford,black,DE - DELAWARE
+39.140251,-75.522885,6995,2013,200 touring,chrysler,brown,DE - DELAWARE
+38.548302,-75.237097,9295,2013,sorento lx,kia,black,DE - DELAWARE
+39.140251,-75.522885,10195,2013,escape sel awd,ford,silver,DE - DELAWARE
+38.714896,-75.076962,12900,2013,500 abarth,fiat,silver,DE - DELAWARE
+38.548302,-75.237097,10195,2013,escape sel awd,ford,black,DE - DELAWARE
+39.205558,-75.563668,16800,2013,328xi,bmw,grey,DE - DELAWARE
+39.2564,-75.6904,22000,2013,wrangler,jeep,orange,DE - DELAWARE
+39.8643,-75.4332,19000,2013,wrangler,jeep,black,DE - DELAWARE
+39.8857,-75.3082,0,2013,impala,chevrolet,purple,DE - DELAWARE
+40.893137,-74.165983,6991,2013,corolla,toyota,silver,DE - DELAWARE
+40.468826,-74.281734,26990,2013,super duty f-450 drw,ford,white,DE - DELAWARE
+40.468826,-74.281734,17990,2013,silverado 3500hd,chevrolet,white,DE - DELAWARE
+33.779214,-84.411811,14590,2013,beetle turbo,volkswagen,white,DE - DELAWARE
+33.7865,-84.4454,14590,2013,beetle 2.5l hatchback,volkswagen,black,DE - DELAWARE
+33.779214,-84.411811,10990,2013,beetle 2.5l hatchback,volkswagen,silver,DE - DELAWARE
+39.512938,-76.909548,25999,2013,sierra 3500 reg cab w/t 4x4,gmc,white,DE - DELAWARE
+39.6349,-75.6993,5,2013,sentra sr,nissan,purple,DE - DELAWARE
+39.731314,-75.619967,9495,2013,cr-v,honda,custom,DE - DELAWARE
+39.731314,-75.619967,10495,2013,camry,toyota,grey,DE - DELAWARE
+39.8857,-75.3082,0,2013,dart,dodge,white,DE - DELAWARE
+33.779214,-84.411811,23990,2013,tacoma access cab pickup,toyota,black,DE - DELAWARE
+40.01884,-74.94716,11995,2013,jx35,infiniti,white,DE - DELAWARE
+40.01884,-74.94716,9995,2013,regal,buick,grey,DE - DELAWARE
+38.7381,-75.1747,8200,2013,elantra,hyundai,silver,DE - DELAWARE
+40.803154,-74.224148,499,2013,charger,dodge,blue,DE - DELAWARE
+39.205558,-75.563668,16800,2013,328xi,bmw,grey,DE - DELAWARE
+40.893137,-74.165983,6450,2013,rogue,nissan,silver,DE - DELAWARE
+39.1409,-75.5227,29000,2013,m6,bmw,black,DE - DELAWARE
+40.468826,-74.281734,17490,2013,express cargo van,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,25999,2013,sierra 3500 reg cab w/t 4x4,gmc,white,DE - DELAWARE
+40.01884,-74.94716,7695,2013,malibu,chevrolet,silver,DE - DELAWARE
+40.01884,-74.94716,11995,2013,jx35,infiniti,white,DE - DELAWARE
+39.6349,-75.6993,7875,2013,fusion,ford,red,DE - DELAWARE
+33.7865,-84.4454,28990,2013,tundra double cab pickup,toyota,white,DE - DELAWARE
+33.7865,-84.4454,28590,2013,m3 convertible 2d,bmw,white,DE - DELAWARE
+40.468826,-74.281734,34990,2013,f-550,ford,white,DE - DELAWARE
+39.8857,-75.3082,0,2013,impala,chevrolet,red,DE - DELAWARE
+38.679,-75.3932,12995,2013,grand cherokee laredo,jeep,blue,DE - DELAWARE
+40.893137,-74.165983,7400,2013,journey,dodge,black,DE - DELAWARE
+39.8857,-75.3082,0,2013,accent,hyundai,white,DE - DELAWARE
+33.779214,-84.411811,27990,2013,wrangler unlimited sport s,jeep,silver,DE - DELAWARE
+39.7168,-75.6184,7500,2013,a4,audi,black,DE - DELAWARE
+39.829891,-75.125281,4899,2013,dart,dodge,grey,DE - DELAWARE
+39.8857,-75.3082,0,2013,dart,dodge,blue,DE - DELAWARE
+33.7865,-84.4454,19990,2013,3 series 335i sedan 4d,bmw,black,DE - DELAWARE
+27.907158,-82.787506,32885,2013,corvette,chevrolet,black,DE - DELAWARE
+38.679,-75.3932,9495,2013,grand caravan,dodge,red,DE - DELAWARE
+39.512938,-76.909548,25999,2013,sierra 3500 reg cab w/t 4x4,gmc,white,DE - DELAWARE
+40.893137,-74.165983,11700,2013,pilot,honda,red,DE - DELAWARE
+39.140251,-75.522885,8195,2013,dart limited,dodge,grey,DE - DELAWARE
+38.548302,-75.237097,7995,2013,dart rallye,dodge,black,DE - DELAWARE
+39.757851,-75.56888,13850,2013,traverse,chevrolet,blue,DE - DELAWARE
+39.701929,-75.570787,1495,2013,malibu,chevrolet,silver,DE - DELAWARE
+39.2934,-75.6008,3200,2013,spark ls,chevrolet,white,DE - DELAWARE
+39.4815,-75.6832,6900,2012,maxima,nissan,blue,DE - DELAWARE
+39.140251,-75.522885,10495,2012,cr-v ex-l,honda,blue,DE - DELAWARE
+33.779214,-84.411811,41990,2012,camaro zl1 coupe 2d,chevrolet,red,DE - DELAWARE
+40.468826,-74.281734,46990,2012,5500,ram,red,DE - DELAWARE
+40.468826,-74.281734,24990,2012,express commercial cutaway,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,30990,2012,5500,ram,white,DE - DELAWARE
+38.548302,-75.237097,9995,2012,cruze lt,chevrolet,white,DE - DELAWARE
+39.205558,-75.563668,9990,2012,silverado,chevrolet,silver,DE - DELAWARE
+39.205558,-75.563668,11500,2012,pathfinder,nissan,grey,DE - DELAWARE
+39.205558,-75.563668,7990,2012,traverse,chevrolet,black,DE - DELAWARE
+38.548302,-75.237097,9995,2012,maxima 3.5 sv,nissan,white,DE - DELAWARE
+38.7687,-75.2953,7200,2012,focus se,ford,silver,DE - DELAWARE
+38.672,-77.0162,12000,2012,silverado 2500hd duramax,chevrolet,red,DE - DELAWARE
+33.779214,-84.411811,14590,2012,beetle 2.5l hatchback,volkswagen,red,DE - DELAWARE
+33.779214,-84.411811,12590,2012,beetle 2.5l hatchback,volkswagen,black,DE - DELAWARE
+33.779214,-84.411811,23990,2012,mustang gt premium coupe 2d,ford,red,DE - DELAWARE
+39.4815,-75.6832,6900,2012,maxima,nissan,blue,DE - DELAWARE
+40.893137,-74.165983,6503,2012,outback,subaru,silver,DE - DELAWARE
+40.01884,-74.94716,4995,2012,focus,ford,silver,DE - DELAWARE
+40.01884,-74.94716,8995,2012,g37 coupe,infiniti,white,DE - DELAWARE
+33.779214,-84.411811,30590,2012,model s sedan 4d,tesla,silver,DE - DELAWARE
+33.779214,-84.411811,36990,2012,model s signature,tesla,red,DE - DELAWARE
+40.893137,-74.165983,7450,2012,optima,kia,silver,DE - DELAWARE
+33.779214,-84.411811,38590,2012,camaro zl1 coupe 2d,chevrolet,red,DE - DELAWARE
+38.688093,-75.101137,20500,2012,fj cruiser,toyota,silver,DE - DELAWARE
+38.548302,-75.237097,7195,2012,200 limited,chrysler,silver,DE - DELAWARE
+39.140251,-75.522885,10495,2012,sorento ex awd,kia,black,DE - DELAWARE
+39.205558,-75.563668,9990,2012,silverado,chevrolet,silver,DE - DELAWARE
+39.205558,-75.563668,11500,2012,pathfinder,nissan,grey,DE - DELAWARE
+40.893137,-74.165983,6950,2012,corolla,toyota,grey,DE - DELAWARE
+39.4815,-75.6832,6900,2012,maxima,nissan,blue,DE - DELAWARE
+40.468826,-74.281734,31990,2012,super duty f-450 drw,ford,white,DE - DELAWARE
+33.779214,-84.411811,10990,2012,beetle 2.5l hatchback,volkswagen,black,DE - DELAWARE
+40.893137,-74.165983,8950,2012,is 250,lexus,black,DE - DELAWARE
+39.8857,-75.3082,0,2012,escape,ford,white,DE - DELAWARE
+33.779214,-84.411811,20990,2012,mustang gt premium coupe 2d,ford,red,DE - DELAWARE
+33.779214,-84.411811,33590,2012,c-class c 63 amg,mercedes-benz,white,DE - DELAWARE
+33.779214,-84.411811,33990,2012,corvette grand sport,chevrolet,white,DE - DELAWARE
+39.731314,-75.619967,9995,2012,venza,toyota,black,DE - DELAWARE
+39.731314,-75.619967,0,2012,civic hybrid,honda,blue,DE - DELAWARE
+39.6264,-75.8458,17000,2012,mdx,acura,black,DE - DELAWARE
+33.779214,-84.411811,36990,2012,model s signature,tesla,silver,DE - DELAWARE
+39.4815,-75.6832,7800,2012,maxima,nissan,blue,DE - DELAWARE
+40.01884,-74.94716,8995,2012,g37 coupe,infiniti,white,DE - DELAWARE
+33.7865,-84.4454,29990,2012,tundra double cab pickup,toyota,grey,DE - DELAWARE
+33.779214,-84.411811,37590,2012,camaro zl1 coupe 2d,chevrolet,black,DE - DELAWARE
+39.205558,-75.563668,9990,2012,silverado,chevrolet,silver,DE - DELAWARE
+39.205558,-75.563668,11500,2012,pathfinder,nissan,grey,DE - DELAWARE
+40.893137,-74.165983,6800,2012,accord,honda,grey,DE - DELAWARE
+38.679,-75.3932,8995,2012,santa fe gls,hyundai,grey,DE - DELAWARE
+39.757851,-75.56888,17777,2012,explorer,ford,purple,DE - DELAWARE
+33.779214,-84.411811,23990,2012,challenger r/t coupe 2d,dodge,red,DE - DELAWARE
+33.7865,-84.4454,21990,2012,e-class e 550,mercedes-benz,black,DE - DELAWARE
+33.779214,-84.411811,31990,2012,tundra crewmax pickup 4d,toyota,black,DE - DELAWARE
+40.468826,-74.281734,30990,2012,f-450 sd,ford,white,DE - DELAWARE
+39.755241,-75.50251,7600,2012,compass,jeep,grey,DE - DELAWARE
+33.7865,-84.4454,23990,2012,mustang gt premium coupe 2d,ford,red,DE - DELAWARE
+33.779214,-84.411811,13990,2012,beetle 2.5l hatchback,volkswagen,red,DE - DELAWARE
+40.01884,-74.94716,8895,2012,journey,dodge,white,DE - DELAWARE
+40.468826,-74.281734,15990,2012,econoline,ford,white,DE - DELAWARE
+40.893137,-74.165983,12400,2012,mdx,acura,black,DE - DELAWARE
+39.0735,-75.5083,6500,2012,sonata hybrid se,hyundai,grey,DE - DELAWARE
+38.679,-75.3932,6995,2012,cruze eco,chevrolet,silver,DE - DELAWARE
+33.7865,-84.4454,31990,2012,camaro zl1 coupe 2d,chevrolet,red,DE - DELAWARE
+39.7473,-75.0899,18995,2012,wrangler unlimited sahara,jeep,white,DE - DELAWARE
+39.8857,-75.3082,0,2012,escape,ford,white,DE - DELAWARE
+33.7865,-84.4454,14990,2012,g g37 coupe 2d,infiniti,white,DE - DELAWARE
+39.7168,-75.6184,6300,2012,camry le,toyota,grey,DE - DELAWARE
+39.8857,-75.3082,0,2012,transit connect,ford,red,DE - DELAWARE
+40.893137,-74.165983,5950,2012,patriot,jeep,grey,DE - DELAWARE
+39.43689,-75.6738,49000,2012,gt-r premium,nissan,red,DE - DELAWARE
+39.512938,-76.909548,32999,2012,f-250 crew cab xl 4x4,ford,black,DE - DELAWARE
+39.776,-75.6889,14000,2012,cooper s,mini,orange,DE - DELAWARE
+39.0225,-75.5829,6200,2012,mazda5,mazda,white,DE - DELAWARE
+40.893137,-74.165983,5903,2011,civic,honda,white,DE - DELAWARE
+38.548302,-75.237097,10195,2011,xc70 3.2 awd,volvo,silver,DE - DELAWARE
+39.3374,-75.8717,7400,2011,c30,volvo,white,DE - DELAWARE
+40.468826,-74.281734,27990,2011,super duty f-550 drw,ford,white,DE - DELAWARE
+39.140251,-75.522885,9995,2011,sonata gls,hyundai,silver,DE - DELAWARE
+38.548302,-75.237097,7495,2011,fusion sel,ford,white,DE - DELAWARE
+39.4815,-75.6832,12000,2011,rx 350,lexus,red,DE - DELAWARE
+39.7011,-75.7375,10800,2011,mkt,lincoln,red,DE - DELAWARE
+39.6349,-75.6993,4775,2011,escape xlt,ford,silver,DE - DELAWARE
+39.8857,-75.3082,0,2011,grand caravan,dodge,silver,DE - DELAWARE
+33.779214,-84.411811,30990,2011,m3 convertible 2d,bmw,black,DE - DELAWARE
+38.548302,-75.237097,9495,2011,rouge sv awd,nissan,white,DE - DELAWARE
+39.140251,-75.522885,9795,2011,taurus limited awd,ford,black,DE - DELAWARE
+39.680087,-75.765495,6200,2011,golf,volkswagen,red,DE - DELAWARE
+33.813139,-74.388428,7500,2011,cooper countryman,mini,brown,DE - DELAWARE
+40.6567,-75.5041,0,2011,sorento,kia,blue,DE - DELAWARE
+40.468826,-74.281734,35990,2011,5500,ram,white,DE - DELAWARE
+40.468826,-74.281734,28990,2011,super duty f-450 drw,ford,white,DE - DELAWARE
+39.837772,-75.537808,13000,2011,rl,acura,white,DE - DELAWARE
+39.512938,-76.909548,29999,2011,f-250 crew cab lariat 4x4,ford,white,DE - DELAWARE
+39.512938,-76.909548,28999,2011,"silverado 3500 crewcab w/t ""flat bed"" drw 4x4",chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,32999,2011,f-250 crew cab xlt 4x4,ford,silver,DE - DELAWARE
+39.2934,-75.6008,3700,2011,fiesta,ford,blue,DE - DELAWARE
+39.757851,-75.56888,7875,2011,cruze,chevrolet,red,DE - DELAWARE
+40.893137,-74.165983,5950,2011,legacy,subaru,grey,DE - DELAWARE
+40.09755,-75.14513,6999,2011,econoline,ford,white,DE - DELAWARE
+39.731314,-75.619967,6995,2011,cr-z,honda,red,DE - DELAWARE
+39.731314,-75.619967,7495,2011,cr-z,honda,blue,DE - DELAWARE
+33.7865,-84.4454,15590,2011,g g37 coupe 2d,infiniti,white,DE - DELAWARE
+38.756867,-75.169315,6500,2011,fiesta,ford,green,DE - DELAWARE
+33.779214,-84.411811,25990,2011,m3 coupe 2d,bmw,black,DE - DELAWARE
+39.7434,-75.5827,6900,2011,colorado lt,chevrolet,purple,DE - DELAWARE
+40.893137,-74.165983,6750,2011,jetta,volkswagen,silver,DE - DELAWARE
+39.6264,-75.8458,6999,2011,sonata,hyundai,red,DE - DELAWARE
+40.468826,-74.281734,24990,2011,ud3000,nissan,white,DE - DELAWARE
+39.512938,-76.909548,15999,2011,f-150 crew cab fx2,ford,grey,DE - DELAWARE
+40.893137,-74.165983,5950,2011,malibu,chevrolet,silver,DE - DELAWARE
+39.156,-75.606,4500,2011,outback,subaru,white,DE - DELAWARE
+40.893137,-74.165983,6200,2011,rogue,nissan,silver,DE - DELAWARE
+39.6349,-75.6993,58995,2011,2500 diesel long horn,ram,black,DE - DELAWARE
+40.468826,-74.281734,29990,2011,super duty f-450 drw,ford,white,DE - DELAWARE
+40.468826,-74.281734,32990,2011,super duty f-450 drw,ford,white,DE - DELAWARE
+39.4815,-75.6832,7777,2011,sonata limited,hyundai,black,DE - DELAWARE
+38.679,-75.3932,12995,2011,f150 xlt,ford,grey,DE - DELAWARE
+40.893137,-74.165983,8500,2011,armada,nissan,grey,DE - DELAWARE
+40.893137,-74.165983,7900,2011,civic,honda,red,DE - DELAWARE
+40.893137,-74.165983,6950,2011,corolla,toyota,grey,DE - DELAWARE
+39.6264,-75.8458,1500,2011,fiesta sel,ford,white,DE - DELAWARE
+39.6102,-75.6747,7495,2011,soul,kia,silver,DE - DELAWARE
+39.6349,-75.6993,15000,2011,express 3500,chevrolet,white,DE - DELAWARE
+39.512938,-76.909548,34999,2011,f-350 crew cab xlt 4x4,ford,grey,DE - DELAWARE
+38.756867,-75.169315,6500,2011,fiesta,ford,green,DE - DELAWARE
+40.893137,-74.165983,7450,2011,cr-v,honda,brown,DE - DELAWARE
+39.140251,-75.522885,8795,2011,volt premium,chevrolet,silver,DE - DELAWARE
+39.8857,-75.3082,0,2011,town and country,chrysler,blue,DE - DELAWARE
+38.548302,-75.237097,8495,2010,journey r/t,dodge,white,DE - DELAWARE
+39.7168,-75.6184,4500,2010,rogue s,nissan,black,DE - DELAWARE
+39.140251,-75.522885,7195,2010,3s sport,mazda,black,DE - DELAWARE
+38.548302,-75.237097,5795,2010,avenger sxt,dodge,white,DE - DELAWARE
+39.205558,-75.563668,11990,2010,highlander,toyota,silver,DE - DELAWARE
+38.5617,-75.0966,7000,2010,lacrosse cxs,buick,white,DE - DELAWARE
+33.779214,-84.411811,36990,2010,corvette grand sport,chevrolet,red,DE - DELAWARE
+39.609236,-75.710026,2800,2010,fusion se,ford,white,DE - DELAWARE
+33.779214,-84.411811,14590,2010,g g37x coupe 2d,infiniti,red,DE - DELAWARE
+39.8857,-75.3082,0,2010,edge,ford,black,DE - DELAWARE
+39.8857,-75.3082,0,2010,focus,ford,purple,DE - DELAWARE
+39.205558,-75.563668,11990,2010,highlander,toyota,silver,DE - DELAWARE
+39.815,-75.505,6500,2010,tsx,acura,custom,DE - DELAWARE
+39.776,-75.6889,16900,2010,tundra,toyota,black,DE - DELAWARE
+33.779214,-84.411811,15990,2010,e-class e 350,mercedes-benz,black,DE - DELAWARE
+39.7647,-75.5069,4400,2010,patriot limited 4x4,jeep,black,DE - DELAWARE
+39.4498,-75.7167,9000,2010,tsx,acura,grey,DE - DELAWARE
+40.468826,-74.281734,27990,2010,super duty f-550 drw,ford,white,DE - DELAWARE
+39.6349,-75.6993,4600,2010,prius,toyota,purple,DE - DELAWARE
+40.01884,-74.94716,4995,2010,altima,nissan,blue,DE - DELAWARE
+39.7434,-75.5827,8500,2010,f-150,ford,white,DE - DELAWARE
+39.593,-75.651,4500,2010,soul,kia,black,DE - DELAWARE
+39.731314,-75.619967,8995,2010,odyssey,honda,grey,DE - DELAWARE
+39.731314,-75.619967,10995,2010,cr-v,honda,green,DE - DELAWARE
+39.731314,-75.619967,8995,2010,forester,subaru,white,DE - DELAWARE
+39.731314,-75.619967,11995,2010,enclave,buick,custom,DE - DELAWARE
+39.731314,-75.619967,13995,2010,a6,audi,silver,DE - DELAWARE
+39.6349,-75.6993,5275,2010,commander,jeep,black,DE - DELAWARE
+33.7865,-84.4454,16990,2010,sierra 1500 extended cab sle,gmc,blue,DE - DELAWARE
+40.893137,-74.165983,7200,2010,cr-v,honda,brown,DE - DELAWARE
+39.7564,-75.534,3900,2010,impala,chevrolet,black,DE - DELAWARE
+39.4815,-75.6832,5489,2010,civic,honda,black,DE - DELAWARE
+39.205558,-75.563668,11990,2010,highlander,toyota,silver,DE - DELAWARE
+39.7359,-75.6647,6500,2010,corolla le,toyota,silver,DE - DELAWARE
+39.698629,-75.706895,6900,2010,f150 4x4,ford,white,DE - DELAWARE
+38.679,-75.3932,8495,2010,tiguan,volkswagen,silver,DE - DELAWARE
+38.776382,-75.33078,3900,2010,prius three 4dr hatchback,toyota,white,DE - DELAWARE
+39.7949,-75.6161,7000,2010,cooper,mini,blue,DE - DELAWARE
+39.7473,-75.0899,7495,2010,q5 premium plus,audi,black,DE - DELAWARE
+39.829891,-75.125281,5999,2010,new beetle coupe,volkswagen,black,DE - DELAWARE
+39.8857,-75.3082,0,2010,focus,ford,red,DE - DELAWARE
+39.698629,-75.706895,6900,2010,f150 xlt,ford,blue,DE - DELAWARE
+39.1564,-75.4955,2000,2010,altima 2.5 s,nissan,silver,DE - DELAWARE
+39.9207,-75.1595,2500,2009,focus se,ford,blue,DE - DELAWARE
+39.6349,-75.6993,2675,2009,escape xlt,ford,black,DE - DELAWARE
+38.548302,-75.237097,9395,2009,c300 sport,mercedes-benz,grey,DE - DELAWARE
+39.140251,-75.522885,10195,2009,mdx sh awd,acura,red,DE - DELAWARE
+39.140251,-75.522885,4995,2009,sentra 2.0,nissan,grey,DE - DELAWARE
+38.548302,-75.237097,7195,2009,3s touring,mazda,silver,DE - DELAWARE
+39.5929,-75.6515,19950,2009,e250 handicap van,ford,blue,DE - DELAWARE
+38.8057,-75.4056,12500,2009,sierra,gmc,red,DE - DELAWARE
+40.3918,-83.1781,3888,2009,fusion se,ford,red,DE - DELAWARE
+39.2934,-75.6008,4000,2009,malibu,chevrolet,silver,DE - DELAWARE
+39.9207,-75.1595,2500,2009,focus se,ford,blue,DE - DELAWARE
+39.7011,-75.7375,1,2009,s60,volvo,silver,DE - DELAWARE
+33.779214,-84.411811,12590,2009,c-class c 300,mercedes-benz,black,DE - DELAWARE
+38.688285,-75.209076,4900,2009,camry,toyota,grey,DE - DELAWARE
+40.01884,-74.94716,4995,2009,maxima,nissan,black,DE - DELAWARE
+39.512938,-76.909548,29999,2009,f-350 crewcab lariat 4x4 drw,ford,custom,DE - DELAWARE
+39.140251,-75.522885,7195,2009,matrix s awd,toyota,black,DE - DELAWARE
+39.7011,-75.7375,1,2009,s60,volvo,purple,DE - DELAWARE
+39.7571,-75.5635,6000,2009,escape,ford,white,DE - DELAWARE
+39.8857,-75.3082,0,2009,fusion,ford,purple,DE - DELAWARE
+39.165085,-75.529718,2500,2009,impala,chevrolet,blue,DE - DELAWARE
+40.468826,-74.281734,23990,2009,ud2600,nissan,white,DE - DELAWARE
+39.8857,-75.3082,0,2009,300,chrysler,blue,DE - DELAWARE
+39.512938,-76.909548,27999,2009,sierra 3500hd cc reg cab drw dump bed 4x4,gmc,white,DE - DELAWARE
+39.8857,-75.3082,0,2009,elantra,hyundai,red,DE - DELAWARE
+39.933371,-75.222511,13600,2009,wrangler,jeep,black,DE - DELAWARE
+39.6349,-75.6993,4975,2009,accord ex-l,honda,silver,DE - DELAWARE
+40.01884,-74.94716,4995,2009,maxima,nissan,black,DE - DELAWARE
+39.6349,-75.6993,3195,2009,focus ses,ford,purple,DE - DELAWARE
+38.49267,-75.166655,2600,2009,town & country,chrysler,red,DE - DELAWARE
+39.7434,-75.5827,3800,2009,town & country,chrysler,blue,DE - DELAWARE
+39.6264,-75.8458,6200,2009,accord lx,honda,purple,DE - DELAWARE
+40.0723,-75.2034,6500,2009,maxima sv premium,nissan,blue,DE - DELAWARE
+40.468826,-74.281734,15990,2009,lumina,chevrolet,black,DE - DELAWARE
+39.7571,-75.5635,6000,2009,escape,ford,white,DE - DELAWARE
+33.7865,-84.4454,39590,2009,corvette z06 coupe 2d,chevrolet,black,DE - DELAWARE
+39.7011,-75.7375,1,2009,s60,volvo,purple,DE - DELAWARE
+39.6264,-75.8458,5900,2009,quest s,nissan,white,DE - DELAWARE
+39.7571,-75.5635,6000,2009,escape,ford,white,DE - DELAWARE
+38.7381,-75.1747,8499,2009,benz e350 4matic,mercedes-benz,black,DE - DELAWARE
+33.7865,-84.4454,9590,2009,yaris sedan 4d,toyota,silver,DE - DELAWARE
+40.893137,-74.165983,5950,2009,accord,honda,purple,DE - DELAWARE
+39.5929,-75.6515,11000,2009,ls 460,lexus,red,DE - DELAWARE
+40.01884,-74.94716,5995,2009,routan,volkswagen,silver,DE - DELAWARE
+39.8857,-75.3082,0,2009,fusion,ford,purple,DE - DELAWARE
+39.933371,-75.222511,10500,2009,f-150,ford,black,DE - DELAWARE
+39.933371,-75.222511,5900,2009,malibu,chevrolet,silver,DE - DELAWARE
+39.8857,-75.3082,0,2009,mazda6,mazda,red,DE - DELAWARE
+39.140251,-75.522885,8195,2009,traverse lt,chevrolet,red,DE - DELAWARE
+39.6102,-75.6747,5900,2009,cx-7,mazda,blue,DE - DELAWARE
+39.7434,-75.5827,4300,2008,torrent,pontiac,custom,DE - DELAWARE
+39.7755,-75.7585,3500,2008,sable premier,mercury,silver,DE - DELAWARE
+40.468826,-74.281734,15990,2008,3500,ram,white,DE - DELAWARE
+40.468826,-74.281734,14990,2008,super duty f-250 srw,ford,white,DE - DELAWARE
+40.893137,-74.165983,6000,2008,cr-v,honda,silver,DE - DELAWARE
+39.7168,-75.6184,5995,2008,trailblazer,chevrolet,blue,DE - DELAWARE
+39.6264,-75.8458,7200,2008,town & country,chrysler,black,DE - DELAWARE
+39.776,-75.6889,5995,2008,sebring convertible,chrysler,red,DE - DELAWARE
+39.140251,-75.522885,5695,2008,cobalt sport,chevrolet,black,DE - DELAWARE
+39.4815,-75.6832,3500,2008,impala lt,chevrolet,silver,DE - DELAWARE
+39.6349,-75.6993,10975,2008,super duty f-350 srw,ford,silver,DE - DELAWARE
+40.01884,-74.94716,3995,2008,mazda6,mazda,black,DE - DELAWARE
+40.01884,-74.94716,4995,2008,envoy,gmc,purple,DE - DELAWARE
+39.6349,-75.6993,4000,2008,civic lx,honda,grey,DE - DELAWARE
+39.8857,-75.3082,0,2008,edge,ford,white,DE - DELAWARE
+40.893137,-74.165983,5400,2008,xc90,volvo,silver,DE - DELAWARE
+38.548302,-75.237097,7195,2008,rogue sl awd,nissan,silver,DE - DELAWARE
+39.140251,-75.522885,6395,2008,xterra x,nissan,silver,DE - DELAWARE
+39.4815,-75.6832,4399,2008,civic,honda,white,DE - DELAWARE
+39.140251,-75.522885,22395,2008,f-350 super duty,ford,red,DE - DELAWARE
+39.9597,-74.5655,4500,2008,expedition xlt,ford,red,DE - DELAWARE
+40.6567,-75.5041,0,2008,patriot,jeep,black,DE - DELAWARE
+39.7011,-75.7375,3700,2008,corolla,toyota,white,DE - DELAWARE
+39.6102,-75.6747,4999,2008,civic,honda,white,DE - DELAWARE
+40.468826,-74.281734,21990,2008,f-350 sd,ford,white,DE - DELAWARE
+40.468826,-74.281734,27990,2008,econoline cargo van,ford,white,DE - DELAWARE
+40.468826,-74.281734,26990,2008,super duty f-650 straight frame,ford,yellow,DE - DELAWARE
+39.8857,-75.3082,0,2008,accord,honda,blue,DE - DELAWARE
+39.7378,-75.5497,5500,2008,taurus x,ford,black,DE - DELAWARE
+39.731314,-75.619967,11995,2008,sport,rover,grey,DE - DELAWARE
+39.731314,-75.619967,14495,2008,fj cruiser,toyota,silver,DE - DELAWARE
+39.6349,-75.6993,3875,2008,sorento lx,kia,white,DE - DELAWARE
+39.4815,-75.6832,3500,2008,impala lt,chevrolet,black,DE - DELAWARE
+39.6882,-76.0492,1900,2008,3,mazda,blue,DE - DELAWARE
+39.701929,-75.570787,1495,2008,g6,pontiac,silver,DE - DELAWARE
+39.750653,-75.526637,2495,2008,accent,hyundai,blue,DE - DELAWARE
+39.750653,-75.526637,2995,2008,malibu ltz,chevrolet,blue,DE - DELAWARE
+39.8857,-75.3082,0,2008,accord,honda,silver,DE - DELAWARE
+39.4815,-75.6832,4399,2008,grand caravan,dodge,blue,DE - DELAWARE
+39.8857,-75.3082,0,2008,edge,ford,blue,DE - DELAWARE
+38.679,-75.3932,11995,2008,4runner,toyota,purple,DE - DELAWARE
+39.1564,-75.4955,8950,2008,550i,bmw,grey,DE - DELAWARE
+39.705317,-75.652186,4500,2008,pilot,honda,silver,DE - DELAWARE
+40.468826,-74.281734,24990,2008,econoline cargo van,ford,white,DE - DELAWARE
+40.468826,-74.281734,25990,2008,econoline cargo van,ford,white,DE - DELAWARE
+39.1564,-75.4955,7500,2008,clk-350 convertible,mercedes-benz,white,DE - DELAWARE
+39.6882,-76.0492,1900,2008,3,mazda,purple,DE - DELAWARE
+39.6349,-75.6993,4500,2008,v70,volvo,red,DE - DELAWARE
+40.893137,-74.165983,7950,2008,rav4,toyota,blue,DE - DELAWARE
+39.6349,-75.6993,7975,2008,silverado 1500 lt1,chevrolet,red,DE - DELAWARE
+39.750653,-75.526637,2995,2008,malibu ltz,chevrolet,blue,DE - DELAWARE
+39.750653,-75.526637,2495,2008,accent,hyundai,blue,DE - DELAWARE
+39.4815,-75.6832,2850,2008,cobalt,chevrolet,blue,DE - DELAWARE
+27.907158,-82.787506,27875,2008,corvette,chevrolet,red,DE - DELAWARE
+39.6699,-75.7151,3800,2008,colorado 08,chevrolet,red,DE - DELAWARE
+39.7788,-74.9308,7200,2008,eclipse,mitsubishi,orange,DE - DELAWARE
+39.7434,-75.5827,4400,2008,torrent,pontiac,custom,DE - DELAWARE
+38.548302,-75.237097,7495,2008,pilot ex 4x4,honda,silver,DE - DELAWARE
+38.548302,-75.237097,10495,2008,gl 450 4matic,mercedes-benz,black,DE - DELAWARE
+39.750653,-75.526637,2995,2008,malibu ltz,chevrolet,blue,DE - DELAWARE
+38.3508,-75.5338,2200,2007,3,mazda,purple,DE - DELAWARE
+39.6102,-75.6747,1800,2007,passat wagon,volkswagen,white,DE - DELAWARE
+40.468826,-74.281734,20990,2007,express cargo van,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,20990,2007,silverado 3500 classic,chevrolet,white,DE - DELAWARE
+39.6264,-75.8458,7500,2007,grand cherokee,jeep,black,DE - DELAWARE
+39.234958,-75.584611,6000,2007,yukon xl slt automatic,gmc,silver,DE - DELAWARE
+40.702,-74.089,9500,2007,rx330,lexus,silver,DE - DELAWARE
+39.0225,-75.5829,9500,2007,suburban ltz,chevrolet,white,DE - DELAWARE
+39.148537,-75.529718,7000,2007,frontier,nissan,white,DE - DELAWARE
+39.7564,-75.534,5,2007,corolla,toyota,silver,DE - DELAWARE
+39.901296,-75.120486,4250,2007,accord,honda,silver,DE - DELAWARE
+39.609236,-75.710026,3000,2007,s60 2.5t awd,volvo,black,DE - DELAWARE
+39.609236,-75.710026,3800,2007,camry,toyota,silver,DE - DELAWARE
+39.305134,-75.6059,2290,2007,sonata,hyundai,red,DE - DELAWARE
+39.4815,-75.6832,7400,2007,tahoe lt,chevrolet,custom,DE - DELAWARE
+39.6349,-75.6993,4399,2007,civic,honda,black,DE - DELAWARE
+40.1913,-75.4373,5000,2007,dts,cadillac,green,DE - DELAWARE
+39.512938,-76.909548,21999,2007,sierra 2500 crew cab sle 4x4 flat bed/5th wheel,gmc,black,DE - DELAWARE
+39.512938,-76.909548,27999,2007,silverado 2500 crewcab ltz 4x4,chevrolet,black,DE - DELAWARE
+39.609236,-75.710026,5995,2007,silverado 1500,chevrolet,brown,DE - DELAWARE
+39.140251,-75.522885,7195,2007,es 350,lexus,black,DE - DELAWARE
+39.911901,-75.277056,3998,2007,fusion,ford,blue,DE - DELAWARE
+38.548302,-75.237097,6995,2007,tsx,acura,silver,DE - DELAWARE
+38.548302,-75.237097,5495,2007,cobalt lt,chevrolet,silver,DE - DELAWARE
+39.6349,-75.6993,3975,2007,jetta se,volkswagen,blue,DE - DELAWARE
+39.715,-75.732,6500,2007,335i,bmw,grey,DE - DELAWARE
+39.8857,-75.3082,0,2007,savana,gmc,blue,DE - DELAWARE
+39.6349,-75.6993,3500,2007,compass,jeep,red,DE - DELAWARE
+39.2934,-75.6008,3200,2007,spectra,kia,orange,DE - DELAWARE
+39.731314,-75.619967,6495,2007,civic,honda,blue,DE - DELAWARE
+39.731314,-75.619967,6995,2007,solstice,pontiac,red,DE - DELAWARE
+39.731314,-75.619967,9495,2007,avalon,toyota,white,DE - DELAWARE
+39.731314,-75.619967,8995,2007,cr-v,honda,blue,DE - DELAWARE
+39.731314,-75.619967,10995,2007,silverado 3500hd,chevrolet,white,DE - DELAWARE
+39.731314,-75.619967,5695,2007,cooper,mini,blue,DE - DELAWARE
+39.7168,-75.6184,3000,2007,milan,mercury,silver,DE - DELAWARE
+39.701929,-75.570787,3995,2007,accord,honda,blue,DE - DELAWARE
+39.7434,-75.5827,6900,2007,cr-v,honda,purple,DE - DELAWARE
+39.609236,-75.710026,3500,2007,altima,nissan,silver,DE - DELAWARE
+40.09755,-75.14513,5999,2007,accord,honda,black,DE - DELAWARE
+40.0369,-75.0664,6000,2007,e-350 xlt club wagon,ford,white,DE - DELAWARE
+39.7564,-75.534,3350,2007,g6,pontiac,grey,DE - DELAWARE
+39.512938,-76.909548,21999,2007,sierra 2500 crew cab sle 4x4 flat bed/5th wheel,gmc,black,DE - DELAWARE
+39.4815,-75.6832,3000,2007,malibu,chevrolet,grey,DE - DELAWARE
+40.893137,-74.165983,6500,2007,cr-v,honda,silver,DE - DELAWARE
+40.01884,-74.94716,3995,2007,tucson,hyundai,silver,DE - DELAWARE
+39.6264,-75.8458,7600,2007,grand cherokee overland 4x4,jeep,silver,DE - DELAWARE
+39.678364,-75.593748,1750,2007,trailblazer,chevrolet,blue,DE - DELAWARE
+39.4283,-75.7996,4995,2007,escape,ford,white,DE - DELAWARE
+39.69447,-75.717173,1800,2007,versa,nissan,blue,DE - DELAWARE
+40.09755,-75.14513,7499,2007,camry,toyota,blue,DE - DELAWARE
+39.750653,-75.526637,3495,2007,accord,honda,blue,DE - DELAWARE
+39.7473,-75.0899,4995,2007,accord se,honda,black,DE - DELAWARE
+39.7473,-75.0899,4495,2007,benz c class c280,mercedes-benz,blue,DE - DELAWARE
+39.6699,-75.7151,3500,2007,750li,bmw,white,DE - DELAWARE
+40.893137,-74.165983,4800,2007,camry,toyota,white,DE - DELAWARE
+40.893137,-74.165983,3750,2007,s60,volvo,black,DE - DELAWARE
+38.548302,-75.237097,6395,2007,civic ex,honda,grey,DE - DELAWARE
+39.8857,-75.3082,0,2007,charger,dodge,purple,DE - DELAWARE
+40.0766,-76.3107,8800,2006,solara sle conv,toyota,blue,DE - DELAWARE
+40.468826,-74.281734,16490,2006,f-750,ford,white,DE - DELAWARE
+40.468826,-74.281734,24990,2006,cc4500,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,16990,2006,express cargo van,chevrolet,white,DE - DELAWARE
+39.7168,-75.6184,9995,2006,express 2500,chevrolet,white,DE - DELAWARE
+39.6264,-75.8458,5600,2006,escape hybrid,ford,red,DE - DELAWARE
+39.140251,-75.522885,7195,2006,m35 awd,infiniti,black,DE - DELAWARE
+40.0766,-76.3107,9000,2006,solara sle conv,toyota,blue,DE - DELAWARE
+40.075313,-75.172806,3900,2006,s40 2.4 premium pkg.,volvo,blue,DE - DELAWARE
+39.6349,-75.6993,1799,2006,altima,nissan,purple,DE - DELAWARE
+39.205558,-75.563668,11500,2006,f250,ford,white,DE - DELAWARE
+39.305134,-75.6059,2490,2006,altima,nissan,purple,DE - DELAWARE
+39.6349,-75.6993,2975,2006,e350 van,ford,red,DE - DELAWARE
+40.115555,-75.188735,11500,2006,econoline e350,ford,orange,DE - DELAWARE
+39.5929,-75.6515,5895,2006,f-150,ford,blue,DE - DELAWARE
+40.468826,-74.281734,26990,2006,super duty f-550 drw,ford,red,DE - DELAWARE
+40.468826,-74.281734,24990,2006,cc4500,chevrolet,white,DE - DELAWARE
+39.933371,-75.222511,8500,2006,express cargo van,chevrolet,white,DE - DELAWARE
+39.6256,-75.637,2750,2006,3,mazda,silver,DE - DELAWARE
+39.731314,-75.619967,5995,2006,g6,pontiac,red,DE - DELAWARE
+39.731314,-75.619967,12995,2006,tacoma,toyota,black,DE - DELAWARE
+39.731314,-75.619967,7995,2006,pathfinder,nissan,red,DE - DELAWARE
+39.731314,-75.619967,7995,2006,charger,dodge,black,DE - DELAWARE
+39.6349,-75.6993,3475,2006,malibu maxx ss,chevrolet,purple,DE - DELAWARE
+39.6349,-75.6993,4975,2006,crv ex awd,honda,silver,DE - DELAWARE
+39.7434,-75.5827,9500,2006,rav4,toyota,black,DE - DELAWARE
+39.750653,-75.526637,3495,2006,durango,dodge,red,DE - DELAWARE
+38.679,-75.3932,5495,2006,pt cruiser limited,chrysler,blue,DE - DELAWARE
+38.679,-75.3932,9995,2006,1500,ram,silver,DE - DELAWARE
+38.679,-75.3932,8995,2006,envoy denali,gmc,white,DE - DELAWARE
+39.701929,-75.570787,4495,2006,cr-v,honda,blue,DE - DELAWARE
+40.468826,-74.281734,19990,2006,express cargo van,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,24990,2006,cc4500,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,15990,2006,silverado 2500,chevrolet,white,DE - DELAWARE
+40.468826,-74.281734,13490,2006,silverado 2500,chevrolet,white,DE - DELAWARE
+39.6264,-75.8458,2500,2006,vue awd,saturn,white,DE - DELAWARE
+39.750653,-75.526637,2995,2006,durango,dodge,red,DE - DELAWARE
+39.6264,-75.8458,4600,2006,optima,kia,silver,DE - DELAWARE
+39.730614,-75.721673,13500,2006,mustang gt convertible,ford,black,DE - DELAWARE
+39.8857,-75.3082,0,2006,grand cherokee,jeep,white,DE - DELAWARE
+40.468826,-74.281734,23990,2006,f-750,ford,white,DE - DELAWARE
+39.6102,-75.6747,2300,2006,6,mazda,silver,DE - DELAWARE
+39.750653,-75.526637,3495,2006,durango,dodge,red,DE - DELAWARE
+39.7473,-75.0899,4495,2006,3 series 325xi,bmw,purple,DE - DELAWARE
+39.7473,-75.0899,6495,2006,5-series 530i,bmw,blue,DE - DELAWARE
+39.7473,-75.0899,5495,2006,cooper s,mini,black,DE - DELAWARE
+38.679,-75.3932,7995,2006,explorer limited,ford,silver,DE - DELAWARE
+39.8857,-75.3082,0,2006,liberty,jeep,silver,DE - DELAWARE
+39.305134,-75.6059,2490,2006,altima,nissan,black,DE - DELAWARE
+39.8188,-75.5064,1500,2006,escape,ford,red,DE - DELAWARE
+39.5929,-75.6515,3300,2005,xc 90,volvo,blue,DE - DELAWARE
+39.4815,-75.6832,2399,2005,civic,honda,blue,DE - DELAWARE
+39.609236,-75.710026,2600,2005,6,mazda,grey,DE - DELAWARE
+39.4815,-75.6832,2750,2005,s60,volvo,black,DE - DELAWARE
+39.5929,-75.6515,3300,2005,xc 90,volvo,white,DE - DELAWARE
+39.6264,-75.8458,3500,2005,grand cherokee laredo,jeep,white,DE - DELAWARE
+39.6699,-75.7151,2000,2005,dakota slt,dodge,black,DE - DELAWARE
+39.4815,-75.6832,4499,2005,frontier,nissan,silver,DE - DELAWARE
+39.7378,-75.5497,3250,2005,ranger,ford,purple,DE - DELAWARE
+39.7378,-75.5497,2250,2005,focus,ford,white,DE - DELAWARE
+39.1858,-75.5195,3500,2005,focus,ford,silver,DE - DELAWARE
+39.4815,-75.6832,2750,2005,s60,volvo,black,DE - DELAWARE
+39.7647,-75.5069,3550,2005,civic ex special edition,honda,silver,DE - DELAWARE
+39.391824,-75.698801,3500,2005,matrix,toyota,silver,DE - DELAWARE
+39.2934,-75.6008,2800,2005,montego,mercury,red,DE - DELAWARE
+39.8188,-75.5064,11500,2005,silverado,chevrolet,white,DE - DELAWARE
+39.6349,-75.6993,1975,2005,town & country,chrysler,black,DE - DELAWARE
+39.6349,-75.6993,4799,2005,accord,honda,white,DE - DELAWARE
+39.8857,-75.3082,0,2005,cts,cadillac,black,DE - DELAWARE
+40.0642,-74.6899,15500,2005,f550,ford,black,DE - DELAWARE
+38.679,-75.3932,6995,2005,liberty limited,jeep,black,DE - DELAWARE
+39.6102,-75.6747,11000,2005,wrangler tj,jeep,black,DE - DELAWARE
+40.01884,-74.94716,3995,2005,armada,nissan,grey,DE - DELAWARE
+39.8857,-75.3082,0,2005,escalade,cadillac,purple,DE - DELAWARE
+39.8857,-75.3082,0,2005,explorer sport trac,ford,purple,DE - DELAWARE
+39.6156,-75.0409,1290,2005,town & country,chrysler,purple,DE - DELAWARE
+39.7473,-75.0899,6495,2005,highlander,toyota,blue,DE - DELAWARE
+39.512938,-76.909548,8999,2005,4runner 4wd sport,toyota,silver,DE - DELAWARE
+39.8857,-75.3082,0,2005,durango,dodge,purple,DE - DELAWARE
+40.01884,-74.94716,3995,2005,armada,nissan,grey,DE - DELAWARE
+39.654839,-75.662531,1500,2005,outback,subaru,red,DE - DELAWARE
+39.750653,-75.526637,1995,2005,accord,honda,red,DE - DELAWARE
+39.701929,-75.570787,2995,2005,300,chrysler,black,DE - DELAWARE
+39.701929,-75.570787,1995,2005,liberty,jeep,red,DE - DELAWARE
+39.701929,-75.570787,1200,2005,cavalier,chevrolet,silver,DE - DELAWARE
+39.5929,-75.6515,4800,2005,dakota 4x4,dodge,black,DE - DELAWARE
+39.714571,-75.92617,1900,2004,grand cherokee,jeep,red,DE - DELAWARE
+39.6264,-75.8458,3400,2004,stratus,dodge,grey,DE - DELAWARE
+38.548302,-75.237097,5195,2004,trailblazer ls 4wd,chevrolet,red,DE - DELAWARE
+39.4815,-75.6832,4799,2004,f-150,ford,purple,DE - DELAWARE
+40.702,-74.089,7500,2004,highlander,toyota,purple,DE - DELAWARE
+39.716694,-75.663528,1500,2004,endeavor limited awd,mitsubishi,black,DE - DELAWARE
+39.572,-75.596,5995,2004,ranger xlt,ford,purple,DE - DELAWARE
+39.7434,-75.5827,2200,2004,grand marquis,mercury,custom,DE - DELAWARE
+39.7168,-75.6184,3750,2004,odyssey,honda,red,DE - DELAWARE
+39.776,-75.6889,4750,2004,highlander limited,toyota,silver,DE - DELAWARE
+39.731314,-75.619967,7995,2004,7-series,bmw,silver,DE - DELAWARE
+39.731314,-75.619967,6995,2004,camry solara,toyota,red,DE - DELAWARE
+39.731314,-75.619967,8995,2004,rx 330,lexus,white,DE - DELAWARE
+39.731314,-75.619967,6995,2004,highlander,toyota,custom,DE - DELAWARE
+39.2934,-75.6008,4200,2004,xterra,nissan,yellow,DE - DELAWARE
+39.609236,-75.710026,3995,2004,mdx,acura,white,DE - DELAWARE
+38.8613,-75.4,15000,2004,f250 super duty,ford,black,DE - DELAWARE
+38.4864,-75.7414,3699,2004,i35 luxury,infiniti,silver,DE - DELAWARE
+39.701929,-75.570787,3995,2004,aramada,nissan,silver,DE - DELAWARE
+39.705317,-75.652186,4500,2004,rav4,toyota,silver,DE - DELAWARE
+39.2934,-75.6008,4200,2004,accord ex,honda,blue,DE - DELAWARE
+39.643112,-75.642319,17000,2004,2500,ram,silver,DE - DELAWARE
+39.701929,-75.570787,3995,2004,aramada,nissan,silver,DE - DELAWARE
+39.0991,-75.5966,18995,2004,tj rubicon,jeep,silver,DE - DELAWARE
+39.617,-75.868,18000,2004,mustang mach 1,ford,blue,DE - DELAWARE
+38.548302,-75.237097,4795,2004,century custom,buick,grey,DE - DELAWARE
+39.6835,-75.7498,600,2004,dakota 4x4,dodge,white,DE - DELAWARE
+38.581139,-75.281583,12345,2003,4runner,toyota,black,DE - DELAWARE
+38.548302,-75.237097,2595,2003,ion 3,saturn,silver,DE - DELAWARE
+38.581139,-75.281583,3300,2003,ls,lincoln,white,DE - DELAWARE
+39.32325,-75.668163,2500,2003,grand cherokee,jeep,silver,DE - DELAWARE
+38.9218,-75.4299,6200,2003,tahoe,chevrolet,purple,DE - DELAWARE
+38.4865,-75.0589,4200,2003,x5,bmw,white,DE - DELAWARE
+39.4815,-75.6832,4199,2003,camry,toyota,black,DE - DELAWARE
+39.4815,-75.6832,3499,2003,accord,honda,red,DE - DELAWARE
+39.6349,-75.6993,3300,2003,avalanche,chevrolet,blue,DE - DELAWARE
+39.6506,-75.7538,1750,2003,blazer,chevrolet,grey,DE - DELAWARE
+39.7168,-75.6184,3653,2003,lancer,mitsubishi,grey,DE - DELAWARE
+39.1605,-75.5974,2895,2003,ml320,mercedes-benz,silver,DE - DELAWARE
+39.6349,-75.6993,2375,2003,e250 cargo van,ford,blue,DE - DELAWARE
+39.6264,-75.8458,2050,2003,civic,honda,blue,DE - DELAWARE
+39.6264,-75.8458,2500,2003,murano se,nissan,silver,DE - DELAWARE
+40.139253,-75.387325,28998,2003,f450sd hauler,ford,black,DE - DELAWARE
+39.602794,-75.945568,10000,2003,e-350,ford,white,DE - DELAWARE
+39.4815,-75.6832,2999,2003,civic,honda,blue,DE - DELAWARE
+39.7168,-75.6184,3550,2003,liberty,jeep,red,DE - DELAWARE
+38.5177,-75.2006,7500,2003,baja,subaru,black,DE - DELAWARE
+39.6264,-75.8458,5200,2003,liberty,jeep,red,DE - DELAWARE
+39.4815,-75.6832,1950,2003,lesabre,buick,blue,DE - DELAWARE
+39.6264,-75.8458,750,2003,ion,saturn,purple,DE - DELAWARE
+39.6264,-75.8458,2500,2003,murano se,nissan,blue,DE - DELAWARE
+39.7168,-75.6184,3550,2003,liberty,jeep,red,DE - DELAWARE
+39.7434,-75.5827,2500,2003,3.2 tl,acura,silver,DE - DELAWARE
+38.730547,-75.096444,5500,2003,mustang convertible,ford,red,DE - DELAWARE
+39.6275,-75.6843,1950,2002,avalon xl,toyota,black,DE - DELAWARE
+39.609236,-75.710026,2250,2002,civic ex,honda,white,DE - DELAWARE
+39.7168,-75.6184,3522,2002,century,buick,silver,DE - DELAWARE
+39.205558,-75.563668,3990,2002,explorer,ford,red,DE - DELAWARE
+39.6349,-75.6993,4300,2002,avalon xl,toyota,silver,DE - DELAWARE
+39.6349,-75.6993,20000,2002,excursion limited,ford,black,DE - DELAWARE
+40.893137,-74.165983,34000,2002,thunderbird,ford,black,DE - DELAWARE
+39.8295,-75.4354,4300,2002,camaro,chevrolet,black,DE - DELAWARE
+39.738075,-75.609112,1250,2002,town car,lincoln,white,DE - DELAWARE
+39.668852,-75.730304,199,2002,benz s500,mercedes-benz,blue,DE - DELAWARE
+39.6264,-75.8458,1450,2002,626 lx,mazda,red,DE - DELAWARE
+39.750421,-75.575882,2400,2002,civic lx,honda,silver,DE - DELAWARE
+39.6102,-75.6747,2000,2002,elantra,hyundai,silver,DE - DELAWARE
+38.688093,-75.101137,3500,2002,f250 super duty,ford,purple,DE - DELAWARE
+39.771194,-75.498905,2500,2002,accord se,honda,blue,DE - DELAWARE
+40.468826,-74.281734,6990,2002,envoy,gmc,custom,DE - DELAWARE
+39.7647,-75.5069,16999,2002,excursion,ford,red,DE - DELAWARE
+39.8857,-75.3082,0,2002,tahoe,chevrolet,white,DE - DELAWARE
+39.6264,-75.8458,1450,2002,626 lx,mazda,blue,DE - DELAWARE
+39.750653,-75.526637,1995,2002,caravan,dodge,blue,DE - DELAWARE
+39.717,-75.618,2000,2001,1500,ram,black,DE - DELAWARE
+39.6102,-75.6747,3500,2001,sierra 1500 hd,gmc,grey,DE - DELAWARE
+39.4815,-75.6832,1900,2001,elantra gls,hyundai,brown,DE - DELAWARE
+39.3401,-76.4153,500,2001,focus,ford,red,DE - DELAWARE
+39.731314,-75.619967,10495,2001,tacoma,toyota,silver,DE - DELAWARE
+39.799376,-75.463375,6400,2001,tacoma,toyota,silver,DE - DELAWARE
+39.6349,-75.6993,2999,2001,civic,honda,silver,DE - DELAWARE
+39.701929,-75.570787,1495,2001,caviler,chevrolet,blue,DE - DELAWARE
+39.705317,-75.652186,3000,2001,pathfinder le 4x4,nissan,black,DE - DELAWARE
+39.705317,-75.652186,3000,2001,pathfinder le 4x4,nissan,black,DE - DELAWARE
+39.1564,-75.4955,2000,2001,v70,volvo,black,DE - DELAWARE
+39.1542,-75.6935,22900,2001,2500,ram,white,DE - DELAWARE
+39.7168,-75.6184,19500,2001,f350 dually,ford,black,DE - DELAWARE
+39.7011,-75.7375,3300,2001,tl,acura,brown,DE - DELAWARE
+39.7434,-75.5827,2900,2000,windstar,ford,silver,DE - DELAWARE
+39.1605,-75.5974,4500,2000,mustang convertible,ford,red,DE - DELAWARE
+39.7011,-75.7375,1,2000,accord,honda,silver,DE - DELAWARE
+39.7994,-75.5317,2900,2000,century custom,buick,black,DE - DELAWARE
+39.5929,-75.6515,2800,2000,deville,cadillac,white,DE - DELAWARE
+39.6349,-75.6993,2500,2000,camry,toyota,white,DE - DELAWARE
+39.717,-75.618,2950,2000,solara,toyota,silver,DE - DELAWARE
+39.1564,-75.4955,5000,2000,1500 conversion van,ram,green,DE - DELAWARE
+39.701929,-75.570787,2495,2000,civic,honda,black,DE - DELAWARE
+39.6102,-75.6747,12000,2000,f 250 super cab,ford,silver,DE - DELAWARE
+39.751012,-75.566205,2300,2000,q45,infiniti,white,DE - DELAWARE
+39.7473,-75.0899,4995,2000,benz s500,mercedes-benz,blue,DE - DELAWARE
+39.7359,-75.6647,9800,2000,tundra,toyota,purple,DE - DELAWARE
