@@ -17,4 +17,4 @@ Steps to run:
  3. pip install -r requirements.txt
  4. python index.py
 
-Run : http://127.0.0.1:5000/
+Run : http://127.0.0.1:8050/
