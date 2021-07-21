@@ -1,7 +1,7 @@
 # CS 526 Data Interaction and Visual Analytics (DIVA)
 ## Used Cars Dashboard
 
-Team members: Harsh Patel, Chaitanya Vallabhaneni, Aseem Malik
+Team members: Harsh Patel, Chaitanya Vallabhaneni
 
 ### About
 
